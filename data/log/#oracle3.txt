@@ -1,0 +1,267 @@
+[15/07 20:24:39] <Toofifty> Hello Oracle!
+[15/07 20:26:41] <Toofifty> .restart
+[15/07 20:27:49] <Toofifty> .restart
+[15/07 20:31:23] <Toofifty> .restart
+[15/07 20:35:05] <Toofifty> .restart
+[15/07 20:35:58] <Toofifty> .restart
+[15/07 20:39:07] <Toofifty> .restart
+[15/07 20:39:12] oracle3 joined ('#oracle3',)
+[15/07 20:39:58] <Toofifty> .reload log
+[15/07 20:40:02] <Toofifty> .reload util
+[15/07 20:40:27] <Toofifty> .restart
+[15/07 20:40:32] oracle3 joined #oracle3
+[15/07 20:41:25] <Toofifty> .restart
+[15/07 20:41:30] oracle3 joined #oracle3
+[15/07 20:43:24] <Toofifty> ( ͡° ͜ʖ ͡°)
+[15/07 20:53:52] <Toofifty> .raw whois Toofifty
+[15/07 21:15:29] <Toofifty> .reload left right up down a b util admin
+[16/07 14:31:20] Oracle3 joined #oracle3
+[16/07 14:31:25] Toofifty joined #oracle3
+[16/07 14:32:51] Oracle3 joined #oracle3
+[16/07 14:32:58] <Toofifty> .help
+[16/07 14:35:02] <Toofifty> .reload help
+[16/07 14:35:05] <Toofifty> .help
+[16/07 14:42:18] <Toofifty> .reload help
+[16/07 14:42:20] <Toofifty> .help
+[16/07 14:56:31] <Toofifty> .reload help
+[16/07 14:56:41] <Toofifty> .reload help
+[16/07 14:56:44] <Toofifty> .help
+[16/07 14:56:51] <Toofifty> .help oracle3
+[16/07 14:57:12] <Toofifty> .reload help
+[16/07 14:57:14] <Toofifty> .help oracle3
+[16/07 14:57:45] <Toofifty> .reload help
+[16/07 14:57:48] <Toofifty> .help oracle3
+[16/07 15:00:34] <Toofifty> .reload help
+[16/07 15:00:36] <Toofifty> .help oracle3
+[16/07 15:06:04] <Toofifty> .reload util
+[16/07 15:06:08] <Toofifty> .reload help
+[16/07 15:06:15] <Toofifty> .say hi
+[16/07 15:06:21] <Toofifty> .say hi ; .say bye
+[16/07 15:07:10] <Toofifty> .reload util
+[16/07 15:07:14] <Toofifty> .say hi ; .say bye
+[16/07 15:07:26] <Toofifty> .reload util
+[16/07 15:07:28] <Toofifty> .say hi ; .say bye
+[16/07 15:07:28] <Toofifty> .say hi
+[16/07 15:07:28] <Toofifty> .say bye
+[16/07 15:09:19] <Toofifty> .restart
+[16/07 15:09:22] Oracle3 joined #oracle3
+[16/07 15:09:37] <Toofifty> .restart
+[16/07 15:09:40] Oracle3 joined #oracle3
+[16/07 15:09:40] <Toofifty> .say hi
+[16/07 15:09:40] <Toofifty> .say bye
+[16/07 15:10:34] <Toofifty> .help
+[16/07 15:10:34] <Toofifty> .help oracle3
+[16/07 15:59:33] <Toofifty> .reload help
+[16/07 15:59:37] <Toofifty> .help poo
+[16/07 16:00:10] <Toofifty> .reload help
+[16/07 16:00:12] <Toofifty> .help poo
+[16/07 16:00:21] <Toofifty> .help say
+[16/07 16:00:40] <Toofifty> .help poo
+[16/07 16:00:42] <Toofifty> .reload help
+[16/07 16:00:44] <Toofifty> .help say
+[16/07 16:00:57] <Toofifty> .help rank
+[16/07 16:01:39] <Toofifty> .reload help
+[16/07 16:01:42] <Toofifty> .help rank
+[16/07 16:02:11] <Toofifty> .reload help
+[16/07 16:02:13] <Toofifty> .help rank
+[16/07 16:03:01] <Toofifty> .reload help
+[16/07 16:03:03] <Toofifty> .help rank
+[16/07 16:03:55] <Toofifty> .reload help
+[16/07 16:03:56] <Toofifty> .help rank
+[16/07 16:05:11] <Toofifty> .restart
+[16/07 16:05:15] Oracle3 joined #oracle3
+[16/07 16:05:22] <Toofifty> .help rank
+[16/07 16:06:04] <Toofifty> .reload help
+[16/07 16:06:06] <Toofifty> .help rank
+[16/07 16:06:56] <Toofifty> .reload help
+[16/07 16:06:59] <Toofifty> .help rank
+[16/07 16:07:21] <Toofifty> .reload help
+[16/07 16:07:23] <Toofifty> .help rank
+[16/07 16:07:57] <Toofifty> .reload help
+[16/07 16:07:59] <Toofifty> .help rank
+[16/07 16:08:44] <Toofifty> .reload help
+[16/07 16:08:46] <Toofifty> .help rank
+[16/07 16:09:38] <Toofifty> .reload help
+[16/07 16:09:40] <Toofifty> .help rank
+[16/07 16:09:49] <Toofifty> .help say
+[16/07 16:12:29] <Toofifty> .reload help
+[16/07 16:12:32] <Toofifty> .help say
+[16/07 16:13:29] <Toofifty> .reload help
+[16/07 16:13:31] <Toofifty> .help say
+[16/07 16:13:42] <Toofifty> .reload help
+[16/07 16:13:44] <Toofifty> .help say
+[16/07 16:16:02] <Toofifty> .reload help
+[16/07 16:16:43] <Toofifty> .reload help
+[16/07 16:17:28] <Toofifty> .reload help
+[16/07 16:17:44] <Toofifty> .reload help
+[16/07 16:17:46] <Toofifty> .help say
+[16/07 16:17:52] <Toofifty> .help rank
+[16/07 16:18:37] <Toofifty> .reload help
+[16/07 16:18:39] <Toofifty> .help rank
+[16/07 16:20:12] <Toofifty> .reload help
+[16/07 16:20:14] <Toofifty> .help rank
+[16/07 16:24:08] <Toofifty> .reload help
+[16/07 16:24:10] <Toofifty> .help rank
+[16/07 16:24:42] <Toofifty> .reload help
+[16/07 16:24:44] <Toofifty> .help rank
+[16/07 16:26:46] <Toofifty> .reload help
+[16/07 16:26:48] <Toofifty> .help rank
+[16/07 16:28:58] <Toofifty> .reload help
+[16/07 16:29:00] <Toofifty> .help rank
+[16/07 16:29:39] <Toofifty> .reload help
+[16/07 16:29:41] <Toofifty> .help rank
+[16/07 16:30:35] <Toofifty> .reload help
+[16/07 16:30:37] <Toofifty> .help rank
+[16/07 16:31:18] <Toofifty> .reload help
+[16/07 16:31:21] <Toofifty> .help rank
+[16/07 16:32:07] <Toofifty> .reload help
+[16/07 16:32:10] <Toofifty> .help rank
+[16/07 16:32:38] <Toofifty> .reload help
+[16/07 16:32:40] <Toofifty> .help rank
+[16/07 16:32:56] <Toofifty> .reload help
+[16/07 16:32:58] <Toofifty> .help rank
+[16/07 16:34:14] <Toofifty> .reload help
+[16/07 16:34:16] <Toofifty> .help rank
+[16/07 16:34:53] <Toofifty> .reload help
+[16/07 16:34:55] <Toofifty> .help rank
+[16/07 16:36:35] <Toofifty> .reload help
+[16/07 16:36:37] <Toofifty> .help rank
+[16/07 16:38:06] <Toofifty> .reload help
+[16/07 16:38:08] <Toofifty> .help rank
+[16/07 16:38:40] <Toofifty> .reload help
+[16/07 16:38:43] <Toofifty> .help rank
+[16/07 16:39:59] <Toofifty> .reload help
+[16/07 16:40:02] <Toofifty> .help rank
+[16/07 16:40:22] <Toofifty> .help alias
+[16/07 16:43:01] <Toofifty> .reload help
+[16/07 16:43:45] <Toofifty> .help alias
+[16/07 16:43:50] <Toofifty> $help alias
+[16/07 16:45:34] <Toofifty> .reload help
+[16/07 16:46:54] <Toofifty> #toofifty $help alias
+[16/07 16:47:10] <Toofifty> .help alias
+[16/07 16:47:17] <Toofifty> $help alias
+[19/07 21:50:09] Oracle3 joined #oracle3
+[19/07 21:50:18] <Toofifty> .help
+[19/07 21:50:37] <Toofifty> .stop
+[19/07 21:50:47] Oracle3 joined #oracle3
+[19/07 21:50:57] <Toofifty> .help
+[19/07 21:51:04] <Toofifty> .help oracle3
+[19/07 21:51:29] <Toofifty> .help all
+[19/07 21:52:31] <Toofifty> .categories
+[19/07 21:53:19] <Toofifty> .load help
+[19/07 21:53:25] <Toofifty> .reload help
+[19/07 22:01:40] <Toofifty> .restarty
+[19/07 22:01:42] <Toofifty> .restart
+[19/07 22:01:45] Oracle3 joined #oracle3
+[19/07 22:03:37] <Toofifty> .restart
+[19/07 22:03:40] Oracle3 joined #oracle3
+[19/07 22:05:06] Oracle3 joined #oracle3
+[19/07 22:05:12] <Toofifty> .help
+[19/07 22:05:42] <Toofifty> .score add alvv 8800
+[19/07 22:09:39] Toofifty joined #oracle3
+[19/07 22:09:51] <Toofifty> .help
+[19/07 22:10:13] <Toofifty> .help oracle3
+[19/07 22:10:25] <Toofifty> .help say
+[19/07 22:12:24] <Toofifty> .help rank
+[20/07 01:31:24] Oracle3 joined #oracle3
+[20/07 01:31:35] <Toofifty> .help
+[20/07 01:31:42] <Toofifty> .help say
+[20/07 01:34:02] <Toofifty> .rank
+[20/07 01:34:18] <Toofifty> .makeadmin
+[20/07 01:39:28] <Toofifty> .rank
+[20/07 01:39:45] <Toofifty> .help say
+[20/07 01:40:54] <Toofifty> .help rank
+[20/07 01:43:28] Toofifty joined #oracle3
+[20/07 01:43:35] <Toofifty> .help rank
+[20/07 01:43:46] <Toofifty> .help
+[20/07 01:44:19] <Toofifty> .help rank
+[20/07 01:55:54] <Toofifty> .reload help
+[20/07 01:56:00] <Toofifty> .help rank
+[20/07 01:56:30] <Toofifty> .help say
+[20/07 01:56:50] <Toofifty> .reload help
+[20/07 01:56:53] <Toofifty> .help rank
+[20/07 01:57:18] <Toofifty> .reload help
+[20/07 01:57:20] <Toofifty> .help rank
+[20/07 01:57:28] <Toofifty> .help say
+[20/07 02:01:57] <Toofifty> .reload help
+[20/07 02:02:00] <Toofifty> .help admin
+[20/07 02:02:29] <Toofifty> .help admin
+[20/07 02:02:32] <Toofifty> .reload help
+[20/07 02:02:34] <Toofifty> .help admin
+[20/07 02:03:48] <Toofifty> .reload help
+[20/07 02:03:50] <Toofifty> .help admin
+[20/07 02:08:58] <Toofifty> .reload help
+[20/07 02:09:01] <Toofifty> .help admin
+[20/07 02:09:27] <Toofifty> .help util
+[20/07 02:12:56] <Toofifty> .reload help
+[20/07 02:13:02] <Toofifty> .help admin
+[20/07 02:14:28] <Toofifty> .reload help
+[20/07 02:14:30] <Toofifty> .help admin
+[20/07 02:14:41] <Toofifty> .reload help
+[20/07 02:14:43] <Toofifty> .help admin
+[20/07 02:15:55] <Toofifty> .reload help
+[20/07 02:16:13] <Toofifty> .reload help
+[20/07 02:16:22] <Toofifty> .reload help
+[20/07 02:16:56] <Toofifty> .reload help
+[20/07 02:16:58] <Toofifty> .help admin
+[20/07 02:17:19] <Toofifty> .reload help
+[20/07 02:17:21] <Toofifty> .help admin
+[20/07 02:17:26] <Toofifty> .help admin 2
+[20/07 02:17:31] <Toofifty> .help admin two
+[20/07 02:18:21] <Toofifty> .reload help
+[20/07 02:18:24] <Toofifty> .help admin two
+[20/07 02:19:52] <Toofifty> .reload help
+[20/07 02:20:01] <Toofifty> .reload help
+[20/07 02:20:03] <Toofifty> .help admin two
+[20/07 02:20:21] <Toofifty> .reload help
+[20/07 02:20:23] <Toofifty> .help admin two
+[20/07 02:25:53] <Toofifty> .help categories
+[20/07 02:26:20] <Toofifty> .reload help
+[20/07 02:26:22] <Toofifty> .help categories
+[20/07 02:27:09] <Toofifty> .reload help
+[20/07 02:27:16] <Toofifty> .help admin
+[20/07 02:27:21] <Toofifty> .help all
+[20/07 02:28:02] Sneaky_Fella joined #oracle3
+[20/07 02:28:08] <Sneaky_Fella> .help
+[20/07 02:28:19] <Sneaky_Fella> .help admin
+[20/07 02:28:31] <Sneaky_Fella> .help all
+[20/07 02:29:53] <Toofifty> .reload help
+[20/07 02:29:58] <Sneaky_Fella> .help all
+[20/07 02:33:18] <Toofifty> .reload help
+[20/07 02:33:21] <Sneaky_Fella> .help all
+[20/07 02:33:51] <Toofifty> .reload help
+[20/07 02:33:55] <Sneaky_Fella> .help all
+[20/07 02:34:12] <Toofifty> .reload help
+[20/07 02:34:15] <Sneaky_Fella> .help all
+[20/07 02:36:31] <Toofifty> .reload help
+[20/07 02:36:34] <Sneaky_Fella> .help all
+[20/07 02:37:52] <Sneaky_Fella> .help
+[23/07 22:33:48] Oracle3 joined #oracle3
+[23/07 22:34:25] Toofifty_ joined #oracle3
+[23/07 22:34:56] <Toofifty> .help
+[23/07 22:35:19] <Toofifty> .help rank
+[23/07 22:35:26] <Toofifty> .help all
+[23/07 22:35:40] <Toofifty> .help all 2
+[23/07 22:40:23] <Toofifty> .reload help
+[23/07 22:40:30] <Toofifty> .help oracle3
+[23/07 22:45:19] <Toofifty> .load emotes
+[23/07 22:45:46] <Toofifty> .reload emotes
+[23/07 22:45:52] <Toofifty> .lenny
+[23/07 22:49:15] <Toofifty> .restart
+[23/07 22:49:21] Oracle3 joined #oracle3
+[23/07 22:49:27] <Toofifty> .lenny
+[23/07 22:50:19] <Toofifty> .restart
+[23/07 22:50:24] Oracle3 joined #oracle3
+[23/07 22:50:28] <Toofifty> .lenny
+[23/07 22:51:58] <Toofifty> .restart
+[23/07 22:52:02] Oracle3 joined #oracle3
+[23/07 22:52:04] <Toofifty> .lenny
+[23/07 22:52:12] <Toofifty> .lennyy
+[23/07 22:52:23] <Toofifty> .fliptable
+[23/07 22:53:21] <Toofifty> .help emotes
+[23/07 22:53:47] <Toofifty> .reload help
+[23/07 22:53:49] <Toofifty> .help emotes
+[23/07 22:57:00] <Toofifty> .reload help
+[23/07 22:57:02] <Toofifty> .help emotes
+[23/07 22:57:53] <Toofifty> .reload help
+[23/07 22:57:55] <Toofifty> .help emotes

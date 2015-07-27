@@ -1,0 +1,7 @@
+# Included Oracle modules
+# Only modules in this list will be loaded.
+admin
+emotes
+help
+log
+util

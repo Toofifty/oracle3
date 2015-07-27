@@ -1,0 +1,305 @@
+[15/07 20:32:39] Toofifty parted #toofifty
+[15/07 20:32:47] Toofifty joined #toofifty
+[15/07 20:39:11] oracle3 joined ('#toofifty',)
+[15/07 20:40:32] oracle3 joined #toofifty
+[15/07 20:41:29] oracle3 joined #toofifty
+[15/07 20:55:14] <Atlas> [06Trivia] Which major weapon of war was used for the first time in 1916?
+[15/07 20:55:14] <Atlas> [06Trivia] Use .a <answer> to answer.
+[15/07 21:12:21] <Atlas> [06Trivia] What is the name of the only planet we've been shown at night time?
+[15/07 21:12:22] <Atlas> [06Trivia] Use .a <answer> to answer.
+[15/07 21:32:22] <Atlas> [06Trivia] What planet did the Gorogohl portal lead to?
+[15/07 21:32:23] <Atlas> [06Trivia] Use .a <answer> to answer.
+[16/07 01:01:19] <Atlas> [10Lottery] New lottery started! Will run for 10:00. Bet range: 10 - 200
+[16/07 01:01:27] <Atlas> [10Lottery] Trylobot bet 190p. Pool is now 190p.
+[16/07 01:01:48] <Atlas> [10Lottery] Toofifty bet 200p. Pool is now 390p.
+[16/07 01:02:07] <Atlas> [10Lottery] Alvv bet 200p. Pool is now 590p.
+[16/07 01:11:20] <Atlas> [10Lottery] Alvv is the lucky winner of this round and receives 09590 points!
+[16/07 01:14:14] <Atlas> [10Lottery] New lottery started! Will run for 05:00. Bet range: 100 - 4000
+[16/07 01:14:26] <Atlas> [10Lottery] Toofifty bet 4000p. Pool is now 4000p.
+[16/07 01:14:34] <Atlas> [10Lottery] Trylobot bet 3999p. Pool is now 7999p.
+[16/07 01:15:28] <Atlas> [10Lottery] HomieMcSkillet bet 100p. Pool is now 8099p.
+[16/07 01:15:59] <Atlas> [10Lottery] Alvv bet 4000p. Pool is now 12099p.
+[16/07 01:19:15] <Atlas> [10Lottery] Alvv is the lucky winner of this round and receives 0912099 points!
+[16/07 01:23:54] <Atlas> ( ͡° ͜ʖ ͡°)
+[16/07 01:41:25] <Atlas> [13Hangman] _ _ _ _ _ | Guessed: | 1 lives left | Prize: 670 points
+[16/07 01:41:37] <Atlas> [13Hangman] l _ _ _ _ | Guessed: l | 1 lives left | Prize: 670 points
+[16/07 01:41:43] <Atlas> [13Hangman] Game over! Out of lives.
+[16/07 01:42:11] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ _ _ | Guessed: | 1 lives left | Prize: 452 points
+[16/07 01:42:31] <Atlas> [13Hangman] Game over! Out of lives.
+[16/07 01:42:59] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ | Guessed: | 1 lives left | Prize: 273 points
+[16/07 01:43:23] <Atlas> [13Hangman] Game over! Out of lives.
+[16/07 01:43:37] <Atlas> [13Hangman] _ _ _ _ _ a _ _ _ | Guessed: ar | 15 lives left | Prize: 33 points
+[16/07 01:43:45] <Atlas> [13Hangman] d _ _ _ _ a _ _ _ | Guessed: ard | 15 lives left | Prize: 33 points
+[16/07 01:43:51] <Atlas> [13Hangman] d e _ _ _ a _ _ e | Guessed: arde | 15 lives left | Prize: 33 points
+[16/07 01:43:51] <Atlas> [13Hangman] d e _ _ _ a n _ e | Guessed: arden | 15 lives left | Prize: 33 points
+[16/07 01:43:54] <Atlas> [13Hangman] d e b _ _ a n _ e | Guessed: ardenb | 15 lives left | Prize: 33 points
+[16/07 01:43:55] <Atlas> [13Hangman] d e b u _ a n _ e | Guessed: ardenbu | 15 lives left | Prize: 33 points
+[16/07 01:43:58] <Atlas> [13Hangman] d e b u t a n t e | Guessed: ardenbut | 15 lives left | Prize: 33 points
+[16/07 01:44:01] <Atlas> [13Hangman] Toofifty wins! +33 points.
+[16/07 01:44:11] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ _ _ _ _ | Guessed: | 1 lives left | Prize: 416 points
+[16/07 01:44:19] <Atlas> [13Hangman] _ _ _ e _ _ _ _ _ e _ _ | Guessed: e | 1 lives left | Prize: 416 points
+[16/07 01:44:20] <Atlas> [13Hangman] _ _ _ e _ _ _ _ _ e _ s | Guessed: es | 1 lives left | Prize: 416 points
+[16/07 01:44:28] <Atlas> [13Hangman] Game over! Out of lives.
+[16/07 01:44:32] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ | Guessed: | 1 lives left | Prize: 288 points
+[16/07 01:44:38] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ _ _ o _ _ _ _ _ _ o _ o _ _ o _ | Guessed: o | 1 lives left | Prize: 288 points
+[16/07 01:44:43] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ _ _ o u _ _ _ _ _ o _ o _ _ o _ | Guessed: ou | 1 lives left | Prize: 288 points
+[16/07 01:44:47] <Atlas> [13Hangman] y _ _ _ _ _ _ _ y y o u _ _ _ _ _ o _ o _ _ o _ | Guessed: ouy | 1 lives left | Prize: 288 points
+[16/07 01:45:04] <Atlas> [13Hangman] y e s t e r d a y y o u s a i d t o m o r r o w | Guessed: ouy | 1 lives left | Prize: 288 points
+[16/07 01:45:05] <Atlas> [13Hangman] HomieMcSkillet wins! +288 points.
+[16/07 01:45:39] <Atlas> [13Hangman] _ _ _ _ _ _ _ | Guessed: | 1 lives left | Prize: 566 points
+[16/07 01:45:45] <Atlas> [13Hangman] Game over! Out of lives.
+[16/07 01:45:51] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ _ _ | Guessed: | 1 lives left | Prize: 452 points
+[16/07 01:45:58] <Atlas> [13Hangman] _ e _ _ _ _ _ _ _ _ | Guessed: e | 1 lives left | Prize: 452 points
+[16/07 01:46:00] <Atlas> [13Hangman] s e _ _ _ _ _ _ _ _ | Guessed: es | 1 lives left | Prize: 452 points
+[16/07 01:46:05] <Atlas> [13Hangman] s e a n m u r r a y | Guessed: es | 1 lives left | Prize: 452 points
+[16/07 01:46:05] <Atlas> [13Hangman] HomieMcSkillet wins! +452 points.
+[16/07 01:46:16] <Atlas> [13Hangman] _ _ _ _ _ _ | Guessed: | 1 lives left | Prize: 612 points
+[16/07 01:46:27] <Atlas> [13Hangman] Game over! Out of lives.
+[16/07 01:46:33] <Atlas> [13Hangman] _ _ _ _ _ | Guessed: | 1 lives left | Prize: 670 points
+[16/07 01:46:39] <Atlas> [13Hangman] Game over! Out of lives.
+[16/07 01:46:44] <Atlas> [13Hangman] _ _ _ _ _ _ | Guessed: | 1 lives left | Prize: 612 points
+[16/07 01:46:50] <Atlas> [13Hangman] Game over! Out of lives.
+[16/07 01:46:56] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ _ | Guessed: | 1 lives left | Prize: 500 points
+[16/07 01:47:02] <Atlas> [13Hangman] _ e _ _ _ _ _ _ e | Guessed: e | 1 lives left | Prize: 500 points
+[16/07 01:47:05] <Atlas> [13Hangman] d e b u t a n t e | Guessed: e | 1 lives left | Prize: 500 points
+[16/07 01:47:06] <Atlas> [13Hangman] Toofifty wins! +500 points.
+[16/07 01:47:21] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ _ _ _ | Guessed: | 1 lives left | Prize: 452 points
+[16/07 01:47:29] <Atlas> [13Hangman] Game over! Out of lives.
+[16/07 01:47:34] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ _ _ _ | Guessed: | 1 lives left | Prize: 433 points
+[16/07 01:47:42] <Atlas> [13Hangman] _ _ _ _ _ _ _ e _ _ _ | Guessed: e | 1 lives left | Prize: 433 points
+[16/07 01:47:42] <Atlas> [13Hangman] Game over! Out of lives.
+[16/07 01:47:51] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ _ _ _ | Guessed: | 1 lives left | Prize: 452 points
+[16/07 01:47:58] <Atlas> [13Hangman] Game over! Out of lives.
+[16/07 01:48:04] <Atlas> [13Hangman] _ _ _ _ _ _ | Guessed: | 1 lives left | Prize: 612 points
+[16/07 01:48:08] <Atlas> [13Hangman] Game over! Out of lives.
+[16/07 01:48:11] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ _ _ _ _ _ _ | Guessed: | 1 lives left | Prize: 363 points
+[16/07 01:48:19] <Atlas> [13Hangman] i _ _ _ _ _ _ _ _ _ _ _ _ _ | Guessed: i | 1 lives left | Prize: 363 points
+[16/07 01:48:23] <Atlas> [13Hangman] i _ _ _ _ _ _ _ _ _ _ _ _ _ | Guessed: ii | 1 lives left | Prize: 363 points
+[16/07 01:48:30] <Atlas> [13Hangman] i _ _ _ _ _ _ _ _ _ _ _ _ _ | Guessed: iii | 1 lives left | Prize: 363 points
+[16/07 01:48:56] <Atlas> [13Hangman] i s _ _ _ _ _ _ _ _ _ _ _ _ | Guessed: iiis | 1 lives left | Prize: 363 points
+[16/07 01:48:57] <Atlas> [13Hangman] i s e e _ e _ _ _ e _ _ _ e | Guessed: iiise | 1 lives left | Prize: 363 points
+[16/07 01:48:59] <Atlas> [13Hangman] i s e e d e _ d _ e _ _ _ e | Guessed: iiised | 1 lives left | Prize: 363 points
+[16/07 01:49:00] <Atlas> [13Hangman] i s e e d e a d _ e _ _ _ e | Guessed: iiiseda | 1 lives left | Prize: 363 points
+[16/07 01:49:03] <Atlas> [13Hangman] i s e e d e a d p e _ p _ e | Guessed: iiisedap | 1 lives left | Prize: 363 points
+[16/07 01:49:07] <Atlas> [13Hangman] i s e e d e a d p e o p _ e | Guessed: iiisedapo | 1 lives left | Prize: 363 points
+[16/07 01:49:11] <Atlas> [13Hangman] i s e e d e a d p e o p l e | Guessed: iiisedapol | 1 lives left | Prize: 363 points
+[16/07 01:49:15] <Atlas> [13Hangman] HomieMcSkillet wins! +363 points.
+[16/07 01:49:36] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ _ _ _ _ _ | Guessed: | 1 lives left | Prize: 400 points
+[16/07 01:49:52] <Atlas> [13Hangman] a d v e n t u r e t i m e | Guessed: | 1 lives left | Prize: 400 points
+[16/07 01:49:53] <Atlas> [13Hangman] Toofifty wins! +400 points.
+[16/07 01:50:07] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ | Guessed: | 1 lives left | Prize: 344 points
+[16/07 01:50:17] <Atlas> [13Hangman] n _ _ _ _ n _ _ _ _ _ _ _ _ _ _ _ _ | Guessed: n | 1 lives left | Prize: 344 points
+[16/07 01:50:19] <Atlas> [13Hangman] n o _ _ _ n _ _ _ _ _ o _ _ _ _ _ _ | Guessed: no | 1 lives left | Prize: 344 points
+[16/07 01:50:20] <Atlas> [13Hangman] Game over! Out of lives.
+[16/07 01:50:35] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ | Guessed: | 1 lives left | Prize: 375 points
+[16/07 01:50:44] <Atlas> [13Hangman] Game over! Out of lives.
+[16/07 01:51:15] <Atlas> [07Numbers] A new Number Game has begun! Use .ng guess <n> to guess.
+[16/07 01:51:15] <Atlas> [07Numbers] The number is between 101 and 10486,781,729.
+[16/07 01:51:15] <Atlas> [07Numbers] Points up for grabs: 09+331673
+[16/07 01:51:35] <Atlas> [07Numbers] Lower! Pool dropped to 09+316,673 points.
+[16/07 01:51:45] <Atlas> [07Numbers] Lower! Pool dropped to 09+301,674 points.
+[16/07 01:51:54] <Atlas> [07Numbers] Higher! Pool dropped to 09+286,674 points.
+[16/07 01:51:57] <Atlas> [07Numbers] Higher! Pool dropped to 09+271,675 points.
+[16/07 01:52:08] <Atlas> [07Numbers] Lower! Pool dropped to 09+256,675 points.
+[16/07 01:52:20] <Atlas> [07Numbers] Lower! Pool dropped to 09+241,676 points.
+[16/07 14:31:20] Oracle3 joined #toofifty
+[16/07 14:32:51] Oracle3 joined #toofifty
+[16/07 14:42:01] <Toofifty> .reload help
+[16/07 15:01:34] <Atlas> [06Trivia] Time remaining: -254 seconds (~-5 minutes).
+[16/07 15:02:16] <Atlas> [06Trivia] Time remaining: -589 seconds (~-10 minutes).
+[16/07 15:03:24] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ | Guessed: | 10 lives left | Prize: 53 points
+[16/07 15:03:30] <Atlas> [13Hangman] _ a _ _ _ _ _ _ | Guessed: a | 10 lives left | Prize: 53 points
+[16/07 15:03:35] <Atlas> [13Hangman] _ a _ _ _ _ _ s | Guessed: as | 10 lives left | Prize: 53 points
+[16/07 15:03:41] <Atlas> [13Hangman] _ a _ _ i _ _ s | Guessed: asi | 10 lives left | Prize: 53 points
+[16/07 15:03:48] <Atlas> [13Hangman] _ a _ _ i _ _ s | Guessed: asi | 10 lives left | Prize: 53 points
+[16/07 15:03:52] <Atlas> [13Hangman] KubeQ112 guessed wrong! 9 lives left.
+[16/07 15:04:00] <Atlas> [13Hangman] KubeQ112 guessed wrong! 8 lives left.
+[16/07 15:04:05] <Atlas> [13Hangman] KubeQ112 guessed wrong! 7 lives left.
+[16/07 15:04:15] <Atlas> [13Hangman] _ a r r i _ _ s | Guessed: asitcbr | 7 lives left | Prize: 22 points
+[16/07 15:04:29] <Atlas> [13Hangman] KubeQ112 guessed wrong! 6 lives left.
+[16/07 15:04:46] <Atlas> [13Hangman] KubeQ112 guessed wrong! 5 lives left.
+[16/07 15:04:51] <Atlas> [13Hangman] _ a r r i n _ s | Guessed: asitcbrfln | 5 lives left | Prize: 12 points
+[16/07 15:05:13] <Atlas> [13Hangman] KubeQ112 guessed wrong! 4 lives left.
+[16/07 15:05:31] <Atlas> [13Hangman] KubeQ112 guessed wrong! 3 lives left.
+[16/07 15:05:37] <Atlas> [13Hangman] _ a r r i n g s | Guessed: asitcbrflnmwg | 3 lives left | Prize: 7 points
+[16/07 15:06:01] <Atlas> [13Hangman] KubeQ112 guessed wrong! 2 lives left.
+[16/07 15:06:17] <Atlas> [13Hangman] KubeQ112 guessed wrong! 1 lives left.
+[16/07 15:06:42] <Atlas> [13Hangman] Game over! Out of lives.
+[16/07 15:06:47] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ _ _ _ | Guessed: | 10 lives left | Prize: 45 points
+[16/07 15:06:50] <Atlas> [13Hangman] _ _ _ _ _ _ a _ _ _ _ | Guessed: a | 10 lives left | Prize: 45 points
+[16/07 15:06:54] <Atlas> [13Hangman] e _ _ _ _ _ a _ _ _ _ | Guessed: ae | 10 lives left | Prize: 45 points
+[16/07 15:06:59] <Atlas> [13Hangman] KubeQ112 guessed wrong! 9 lives left.
+[16/07 15:07:02] <Atlas> [13Hangman] e _ _ _ _ _ a _ i _ _ | Guessed: aesi | 9 lives left | Prize: 33 points
+[16/07 15:07:15] <Atlas> [13Hangman] KubeQ112 guessed wrong! 8 lives left.
+[16/07 15:07:23] <Atlas> [13Hangman] KubeQ112 guessed wrong! 7 lives left.
+[16/07 15:07:32] <Atlas> [13Hangman] e _ _ _ _ r a _ i _ _ | Guessed: aesir | 7 lives left | Prize: 19 points
+[16/07 15:07:43] <Atlas> [13Hangman] KubeQ112 guessed wrong! 6 lives left.
+[16/07 15:07:53] <Atlas> [13Hangman] KubeQ112 guessed wrong! 5 lives left.
+[16/07 15:07:58] <Atlas> [13Hangman] KubeQ112 guessed wrong! 4 lives left.
+[16/07 15:08:04] <Atlas> [13Hangman] KubeQ112 guessed wrong! 3 lives left.
+[16/07 15:08:15] <Atlas> [13Hangman] e _ _ _ _ r a _ i _ n | Guessed: aesirdhgcn | 3 lives left | Prize: 6 points
+[16/07 15:08:18] <Atlas> [13Hangman] KubeQ112 guessed wrong! 2 lives left.
+[16/07 15:08:30] <Atlas> [13Hangman] KubeQ112 guessed wrong! 1 lives left.
+[16/07 15:08:42] <Atlas> [13Hangman] Game over! Out of lives.
+[16/07 15:08:48] <Atlas> [13Hangman] _ _ _ _ _ | Guessed: | 10 lives left | Prize: 67 points
+[16/07 15:08:53] <Atlas> [13Hangman] KubeQ112 guessed wrong! 9 lives left.
+[16/07 15:09:03] <Atlas> [13Hangman] KubeQ112 guessed wrong! 8 lives left.
+[16/07 15:09:10] <Atlas> [13Hangman] _ _ _ _ s | Guessed: eas | 8 lives left | Prize: 37 points
+[16/07 15:09:22] Oracle3 joined #toofifty
+[16/07 15:09:31] <Atlas> [13Hangman] KubeQ112 guessed wrong! 7 lives left.
+[16/07 15:09:36] <Atlas> [13Hangman] KubeQ112 guessed wrong! 6 lives left.
+[16/07 15:09:40] Oracle3 joined #toofifty
+[16/07 15:09:42] <Atlas> [13Hangman] _ u _ _ s | Guessed: easoiu | 6 lives left | Prize: 21 points
+[16/07 15:09:56] <Atlas> [13Hangman] FalseNoise guessed wrong! 5 lives left.
+[16/07 15:09:59] <Atlas> [13Hangman] KubeQ112 guessed wrong! 4 lives left.
+[16/07 15:10:04] <Atlas> [13Hangman] _ u t t s | Guessed: easoiundt | 4 lives left | Prize: 11 points
+[16/07 15:10:08] <Atlas> [13Hangman] b u t t s | Guessed: easoiundtb | 4 lives left | Prize: 11 points
+[16/07 15:10:08] <Atlas> [13Hangman] FalseNoise wins! +11 points.
+[16/07 15:10:33] <Atlas> [13Hangman] _ _ _ _ _ _ | Guessed: | 10 lives left | Prize: 61 points
+[16/07 15:10:38] <Atlas> [13Hangman] KubeQ112 guessed wrong! 9 lives left.
+[16/07 15:10:45] <Atlas> [13Hangman] s _ _ _ _ _ | Guessed: es | 9 lives left | Prize: 45 points
+[16/07 15:10:52] <Atlas> [13Hangman] FalseNoise guessed wrong! 8 lives left.
+[16/07 15:10:57] <Atlas> [13Hangman] FalseNoise guessed wrong! 7 lives left.
+[16/07 15:10:57] <Atlas> [13Hangman] s a _ a _ _ | Guessed: estha | 7 lives left | Prize: 25 points
+[16/07 15:11:02] <Atlas> [13Hangman] s a _ a l l | Guessed: esthal | 7 lives left | Prize: 25 points
+[16/07 15:11:06] <Atlas> [13Hangman] s a y a l l | Guessed: esthaly | 7 lives left | Prize: 25 points
+[16/07 15:11:06] <Atlas> [13Hangman] KubeQ112 wins! +25 points.
+[16/07 15:11:22] <Atlas> [13Hangman] _ _ _ _ _ | Guessed: | 10 lives left | Prize: 67 points
+[16/07 15:11:28] <Atlas> [13Hangman] s _ _ _ _ | Guessed: s | 10 lives left | Prize: 67 points
+[16/07 15:11:34] <Atlas> [13Hangman] FalseNoise guessed wrong! 9 lives left.
+[16/07 15:11:40] <Atlas> [13Hangman] FalseNoise guessed wrong! 8 lives left.
+[16/07 15:11:43] <Atlas> [13Hangman] FalseNoise guessed wrong! 7 lives left.
+[16/07 15:11:48] <Atlas> [13Hangman] FalseNoise guessed wrong! 6 lives left.
+[16/07 15:11:51] <Atlas> [13Hangman] s _ _ i _ | Guessed: samnei | 6 lives left | Prize: 21 points
+[16/07 15:11:52] <Atlas> [13Hangman] FalseNoise guessed wrong! 5 lives left.
+[16/07 15:11:59] <Atlas> [13Hangman] FalseNoise guessed wrong! 4 lives left.
+[16/07 15:12:06] <Atlas> [13Hangman] FalseNoise guessed wrong! 3 lives left.
+[16/07 15:12:07] <Atlas> [13Hangman] KubeQ112 guessed wrong! 2 lives left.
+[16/07 15:12:12] <Atlas> [13Hangman] FalseNoise guessed wrong! 1 lives left.
+[16/07 15:12:15] <Atlas> [13Hangman] Game over! Out of lives.
+[16/07 15:12:20] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ | Guessed: | 10 lives left | Prize: 27 points
+[16/07 15:12:26] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ _ _ a _ a _ _ _ _ _ _ _ _ _ _ _ | Guessed: a | 10 lives left | Prize: 27 points
+[16/07 15:12:29] <Atlas> [13Hangman] _ _ _ o _ _ _ _ o _ a _ a _ _ _ o _ _ _ _ _ _ _ | Guessed: ao | 10 lives left | Prize: 27 points
+[16/07 15:12:34] <Atlas> [13Hangman] KubeQ112 guessed wrong! 9 lives left.
+[16/07 15:12:35] <Atlas> [13Hangman] _ _ _ o _ _ f _ o _ a _ a _ _ _ o _ _ _ _ _ _ _ | Guessed: aosf | 9 lives left | Prize: 20 points
+[16/07 15:12:40] <Atlas> [13Hangman] _ _ _ o _ _ f r o _ a _ a _ _ _ o _ _ _ _ _ _ r | Guessed: aosfr | 9 lives left | Prize: 20 points
+[16/07 15:12:45] <Atlas> [13Hangman] KubeQ112 guessed wrong! 8 lives left.
+[16/07 15:12:56] <Atlas> [13Hangman] FalseNoise guessed wrong! 7 lives left.
+[16/07 15:12:57] <Atlas> [13Hangman] _ _ _ o m _ f r o m a _ a _ _ _ o _ _ _ _ _ _ r | Guessed: aosfrgym | 7 lives left | Prize: 11 points
+[16/07 15:13:10] <Atlas> [13Hangman] _ _ _ o m _ f r o m a l a _ _ _ o _ _ _ _ _ _ r | Guessed: aosfrgyml | 7 lives left | Prize: 11 points
+[16/07 15:13:15] <Atlas> [13Hangman] KubeQ112 guessed wrong! 6 lives left.
+[16/07 15:13:45] <Atlas> [13Hangman] _ _ _ o m _ f r o m a l a n _ _ o _ n _ n _ _ r | Guessed: aosfrgymlzn | 6 lives left | Prize: 8 points
+[16/07 15:13:48] <Atlas> [13Hangman] FalseNoise guessed wrong! 5 lives left.
+[16/07 15:13:51] <Atlas> [13Hangman] _ _ _ o m _ f r o m a l a n d d o _ n _ n d _ r | Guessed: aosfrgymlznsd | 5 lives left | Prize: 6 points
+[16/07 15:13:52] <Atlas> [13Hangman] _ _ _ o m _ f r o m a l a n d d o _ n _ n d _ r | Guessed: aosfrgymlznsdd | 5 lives left | Prize: 6 points
+[16/07 15:14:00] <Atlas> [13Hangman] _ _ _ o m _ f r o m a l a n d d o _ n u n d _ r | Guessed: aosfrgymlznsddu | 5 lives left | Prize: 6 points
+[16/07 15:14:03] <Atlas> [13Hangman] _ e _ o m e f r o m a l a n d d o _ n u n d e r | Guessed: aosfrgymlznsddue | 5 lives left | Prize: 6 points
+[16/07 15:14:04] <Atlas> [13Hangman] _ e _ o m e f r o m a l a n d d o _ n u n d e r | Guessed: aosfrgymlznsdduee | 5 lives left | Prize: 6 points
+[16/07 15:14:10] <Atlas> [13Hangman] _ e c o m e f r o m a l a n d d o _ n u n d e r | Guessed: aosfrgymlznsddueec | 5 lives left | Prize: 6 points
+[16/07 15:14:11] <Atlas> [13Hangman] w e c o m e f r o m a l a n d d o w n u n d e r | Guessed: aosfrgymlznsddueecw | 5 lives left | Prize: 6 points
+[16/07 15:14:12] <Atlas> [13Hangman] FalseNoise wins! +6 points.
+[16/07 15:14:22] <Atlas> [13Hangman] _ _ _ _ _ | Guessed: | 10 lives left | Prize: 67 points
+[16/07 15:14:26] <Atlas> [13Hangman] KubeQ112 guessed wrong! 9 lives left.
+[16/07 15:14:27] <Atlas> [13Hangman] FalseNoise guessed wrong! 8 lives left.
+[16/07 15:14:34] <Atlas> [13Hangman] FalseNoise guessed wrong! 7 lives left.
+[16/07 15:14:34] <Atlas> [13Hangman] KubeQ112 guessed wrong! 6 lives left.
+[16/07 15:14:37] <Atlas> [13Hangman] FalseNoise guessed wrong! 5 lives left.
+[16/07 15:14:41] <Atlas> [13Hangman] KubeQ112 guessed wrong! 4 lives left.
+[16/07 15:14:45] <Atlas> [13Hangman] _ _ _ _ _ | Guessed: agesi | 4 lives left | Prize: 11 points
+[16/07 15:14:49] <Atlas> [13Hangman] FalseNoise guessed wrong! 3 lives left.
+[16/07 15:14:53] <Atlas> [13Hangman] _ _ _ _ o | Guessed: agesiho | 3 lives left | Prize: 8 points
+[16/07 15:14:57] <Atlas> [13Hangman] p _ _ _ o | Guessed: agesihop | 3 lives left | Prize: 8 points
+[16/07 15:15:06] <Atlas> [13Hangman] p _ u _ o | Guessed: agesihopu | 3 lives left | Prize: 8 points
+[16/07 15:15:07] <Atlas> [13Hangman] FalseNoise guessed wrong! 2 lives left.
+[16/07 15:15:19] <Atlas> [13Hangman] p l u t o | Guessed: agesihopug | 2 lives left | Prize: 6 points
+[16/07 15:15:19] <Atlas> [13Hangman] KubeQ112 wins! +6 points.
+[16/07 15:15:35] <Atlas> [13Hangman] _ _ _ _ _ _ _ | Guessed: | 10 lives left | Prize: 56 points
+[16/07 15:15:40] <Atlas> [13Hangman] FalseNoise guessed wrong! 9 lives left.
+[16/07 15:15:43] <Atlas> [13Hangman] FalseNoise guessed wrong! 8 lives left.
+[16/07 15:15:44] <Atlas> [13Hangman] KubeQ112 guessed wrong! 7 lives left.
+[16/07 15:15:47] <Atlas> [13Hangman] _ _ _ _ t _ _ | Guessed: esat | 7 lives left | Prize: 23 points
+[16/07 15:15:49] <Atlas> [13Hangman] KubeQ112 guessed wrong! 6 lives left.
+[16/07 15:15:52] <Atlas> [13Hangman] FalseNoise guessed wrong! 5 lives left.
+[16/07 15:15:55] <Atlas> [13Hangman] KubeQ112 guessed wrong! 4 lives left.
+[16/07 15:15:59] <Atlas> [13Hangman] FalseNoise guessed wrong! 3 lives left.
+[16/07 15:16:04] <Atlas> [13Hangman] FalseNoise guessed wrong! 2 lives left.
+[16/07 15:16:07] <Atlas> [13Hangman] _ _ _ _ t _ y | Guessed: esatipubcy | 2 lives left | Prize: 5 points
+[16/07 15:16:23] <Atlas> [13Hangman] FalseNoise guessed wrong! 1 lives left.
+[16/07 15:16:25] <Atlas> [13Hangman] _ o _ o t _ y | Guessed: esatipubcyfo | 1 lives left | Prize: 4 points
+[16/07 15:16:34] <Atlas> [13Hangman] d o r o t h y | Guessed: esatipubcyfo | 1 lives left | Prize: 4 points
+[16/07 15:16:35] <Atlas> [13Hangman] KubeQ112 wins! +4 points.
+[16/07 15:16:57] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ _ _ _ _ | Guessed: | 10 lives left | Prize: 40 points
+[16/07 15:17:01] <Atlas> [13Hangman] KubeQ112 guessed wrong! 9 lives left.
+[16/07 15:17:06] <Atlas> [13Hangman] _ _ _ _ _ _ u _ _ _ _ _ | Guessed: au | 9 lives left | Prize: 30 points
+[16/07 15:17:40] <Atlas> [13Hangman] _ _ _ _ _ _ u _ _ _ _ s | Guessed: aus | 9 lives left | Prize: 30 points
+[16/07 15:17:40] <Atlas> [13Hangman] _ _ _ _ _ _ u _ _ _ _ s | Guessed: auss | 9 lives left | Prize: 30 points
+[16/07 15:17:46] <Atlas> [13Hangman] FalseNoise guessed wrong! 8 lives left.
+[16/07 15:17:51] <Atlas> [13Hangman] FalseNoise guessed wrong! 7 lives left.
+[16/07 15:17:56] <Atlas> [13Hangman] _ _ _ _ _ _ u r _ _ _ s | Guessed: aussmnr | 7 lives left | Prize: 16 points
+[16/07 15:17:59] <Atlas> [13Hangman] _ l _ _ _ _ u r _ l _ s | Guessed: aussmnrl | 7 lives left | Prize: 16 points
+[16/07 15:18:08] <Atlas> [13Hangman] _ l _ _ _ t u r t l _ s | Guessed: aussmnrlt | 7 lives left | Prize: 16 points
+[16/07 15:18:13] <Atlas> [13Hangman] _ l _ _ e t u r t l e s | Guessed: aussmnrlte | 7 lives left | Prize: 16 points
+[16/07 15:18:19] <Atlas> [13Hangman] i l i _ e t u r t l e s | Guessed: aussmnrltei | 7 lives left | Prize: 16 points
+[16/07 15:18:19] <Atlas> [13Hangman] KubeQ112 guessed wrong! 6 lives left.
+[16/07 15:18:23] <Atlas> [13Hangman] FalseNoise guessed wrong! 5 lives left.
+[16/07 15:18:27] <Atlas> [13Hangman] FalseNoise guessed wrong! 4 lives left.
+[16/07 15:18:32] <Atlas> [13Hangman] i l i k e t u r t l e s | Guessed: aussmnrlteimvnk | 4 lives left | Prize: 7 points
+[16/07 15:18:32] <Atlas> [13Hangman] FalseNoise wins! +7 points.
+[16/07 15:19:30] <Atlas> [13Hangman] _ _ _ _ _ _ _ | Guessed: | 1 lives left | Prize: 566 points
+[16/07 15:19:36] <Atlas> [13Hangman] _ a _ _ _ a _ | Guessed: a | 1 lives left | Prize: 566 points
+[16/07 15:19:48] <Atlas> [13Hangman] Game over! Out of lives.
+[16/07 15:27:38] <Atlas> [13Hangman] _ _ _ _ _ _ _ _ _ _ _ | Guessed: | 1 lives left | Prize: 433 points
+[16/07 15:27:48] <Toofifty> .hm ans
+[16/07 15:27:55] <Atlas> [13Hangman] m _ _ _ _ _ _ _ _ _ _ | Guessed: m | 1 lives left | Prize: 433 points
+[16/07 15:27:56] <Atlas> [13Hangman] m _ _ _ _ _ _ _ d _ _ | Guessed: md | 1 lives left | Prize: 433 points
+[16/07 15:32:42] <Atlas> [13Hangman] m _ _ _ _ a _ _ d _ _ | Guessed: mda | 1 lives left | Prize: 433 points
+[16/07 15:32:48] <Atlas> [13Hangman] m _ u _ _ a _ _ d _ _ | Guessed: mdau | 1 lives left | Prize: 433 points
+[16/07 15:32:56] <Atlas> [13Hangman] m _ u _ _ a _ _ d e _ | Guessed: mdaue | 1 lives left | Prize: 433 points
+[16/07 15:33:01] <Atlas> [13Hangman] m _ u n _ a _ n d e _ | Guessed: mdauen | 1 lives left | Prize: 433 points
+[16/07 15:33:13] <Atlas> [13Hangman] Game over! Out of lives.
+[16/07 15:34:11] <Atlas> [06Trivia] Time remaining: -589 seconds (~-10 minutes).
+[16/07 15:34:20] <Atlas> [06Trivia] Who wears the golden helmet in the duo Daft Punk (full name)?
+[16/07 15:34:21] <Atlas> [06Trivia] Use .a <answer> to answer.
+[16/07 15:38:25] <Atlas> ['guy-manuel de homem-christo']
+[16/07 15:38:45] <Atlas> [06Trivia] What is Carlos Estevez better known as?
+[16/07 15:38:45] <Atlas> [06Trivia] Use .a <answer> to answer.
+[16/07 15:38:55] <Toofifty> .trivia answer
+[16/07 15:48:45] <Atlas> [06Trivia] What is the name of the studio Sean Murray worked in before Hello Games?
+[16/07 15:48:46] <Atlas> [06Trivia] Use .a <answer> to answer.
+[16/07 15:58:30] <Atlas> [06Trivia] Epistemology is the study of what?
+[16/07 15:58:30] <Atlas> [06Trivia] Use .a <answer> to answer.
+[16/07 16:05:15] Oracle3 joined #toofifty
+[16/07 16:41:18] <Toofifty> .say #toofifty $help alias
+[16/07 16:41:18] <Atlas> $help alias
+[16/07 16:41:18] <Atlas> #toofifty $help alias
+[16/07 16:43:06] <Toofifty> .reload help
+[16/07 16:43:10] <Toofifty> .say #toofifty $help alias
+[16/07 16:43:11] <Atlas> $help alias
+[16/07 16:43:11] <Atlas> #toofifty $help alias
+[16/07 16:45:38] <Toofifty> .say #toofifty $help alias
+[16/07 16:45:39] <Atlas> $help alias
+[16/07 16:45:39] <Atlas> #toofifty $help alias
+[16/07 16:46:54] <Toofifty> $help alias
+[19/07 21:47:07] Oracle3 joined #toofifty
+[19/07 21:47:16] <Toofifty> .help
+[19/07 21:48:21] <Toofifty> .say hi
+[19/07 21:48:22] <Atlas> hi
+[19/07 21:49:08] <Toofifty> .say hi
+[19/07 21:49:08] <Toofifty> .say bye
+[19/07 21:49:09] <Atlas> hi
+[19/07 21:49:09] <Atlas> .say bye
+[19/07 21:49:40] <Toofifty> aabcddddd
+[19/07 21:49:40] <Toofifty> .say lol
+[19/07 21:50:47] Oracle3 joined #toofifty
+[19/07 22:01:45] Oracle3 joined #toofifty
+[19/07 22:03:40] Oracle3 joined #toofifty
+[19/07 22:05:06] Oracle3 joined #toofifty
+[19/07 22:05:46] <Toofifty> .score add alvv 8800
+[19/07 22:09:36] Toofifty joined #toofifty
+[20/07 01:31:23] Oracle3 joined #toofifty
+[20/07 01:43:18] Toofifty joined #toofifty
+[20/07 01:43:21] <Toofifty> join #oracle3
+[23/07 22:33:48] Oracle3 joined #toofifty
+[23/07 22:49:21] Oracle3 joined #toofifty
+[23/07 22:50:24] Oracle3 joined #toofifty
+[23/07 22:52:02] Oracle3 joined #toofifty
