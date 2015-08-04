@@ -6,7 +6,7 @@ trivia.py
 """
 
 from threading import Thread
-from format import PURPLE, RESET
+from format import PURPLE, RESET, BOLD
 trivia = None
 
 ###################################
@@ -92,5 +92,41 @@ class Trivia(Thread):
             return True, self.reward
         else:
             return False, None
+
+    def info(self):
+    	# Return info about the current trivia
+	# interval, time_left, question (or None)
+    	return self.interval, self.time_left, self.current
+
+    def print_question(self):
+    	# Prints the curret question, as well as the [answer] line
+	if self.current != '':
+	    self.bot.broadcast(self.format + ' ' + self.current)
+	    self.bot.broadcast('%s Answer with %s.a [answer]' % (self.format, BOLD))
+
+    def end_cycle(self):
+    	self.current = self.get_question()
+	self.print_question()
+
+    def run(self):
+    	while not self.dead:
+	    while self.time_left > 0:
+	        self.time_left -= 2
+		time.sleep(2)
+	    if self.current == '':
+		self.time_left = self.interval
+		self.kickstarters = []
+		self.skippers = []
+		self.end_cycle()
+	    time.sleep(2)
+
+
+
+
+
+
+
+
+
 
     
