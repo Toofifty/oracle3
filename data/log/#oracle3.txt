@@ -265,3 +265,364 @@
 [23/07 22:57:02] <Toofifty> .help emotes
 [23/07 22:57:53] <Toofifty> .reload help
 [23/07 22:57:55] <Toofifty> .help emotes
+[04/08 20:37:49] Oracle3 joined #oracle3
+[04/08 20:37:53] Toofifty joined #oracle3
+[04/08 20:38:00] <Toofifty> .say $points$
+[04/08 20:38:06] <Toofifty> .say $nick$
+[04/08 20:38:14] <Toofifty> .say $config.points$
+[04/08 20:38:18] <Toofifty> .say $config.curr$
+[04/08 20:38:22] <Toofifty> .say $curr$
+[04/08 21:19:55] <Toofifty> .restart
+[04/08 21:21:50] Oracle3 joined #oracle3
+[04/08 21:22:11] <Toofifty> .restart
+[04/08 21:23:09] Oracle3 joined #oracle3
+[04/08 21:23:37] <Toofifty> .restart
+[04/08 21:38:16] Oracle3 joined #oracle3
+[04/08 21:38:51] Oracle3 joined #oracle3
+[04/08 21:38:57] <Toofifty> .help trivia
+[04/08 21:39:49] <Toofifty> .help rank
+[04/08 21:39:57] <Toofifty> .help trivia
+[04/08 21:40:00] <Toofifty> .help a
+[04/08 21:40:53] <Toofifty> .reload trivia
+[04/08 21:40:58] <Toofifty> .reload trivia2
+[04/08 21:41:01] <Toofifty> .help trivia
+[04/08 21:41:14] <Toofifty> .trivia time
+[04/08 21:42:27] <Toofifty> .reload trivia2
+[04/08 21:42:29] <Toofifty> .trivia time
+[04/08 21:42:43] <Toofifty> .reload trivia2
+[04/08 21:43:32] <Toofifty> .reload trivia2
+[04/08 21:43:38] <Toofifty> .restart
+[04/08 21:43:43] Oracle3 joined #oracle3
+[04/08 21:43:53] <Toofifty> .trivia time
+[04/08 21:44:10] <Toofifty> .reload trivia2
+[04/08 21:44:14] <Toofifty> .trivia time
+[04/08 21:44:29] <Toofifty> .reload trivia2
+[04/08 21:44:32] <Toofifty> .trivia time
+[04/08 21:44:36] <Toofifty> .trivia time
+[04/08 21:44:43] <Toofifty> .trivia new
+[04/08 21:45:20] <Toofifty> .reload trivia2
+[04/08 21:45:26] <Toofifty> .trivia new
+[04/08 21:45:41] <Toofifty> .reload trivia2
+[04/08 21:45:43] <Toofifty> .trivia new
+[04/08 21:45:58] <Toofifty> .reload trivia2
+[04/08 21:46:00] <Toofifty> .trivia new
+[04/08 21:51:49] Oracle3 joined #oracle3
+[04/08 21:51:57] <Toofifty> .trivia new
+[04/08 21:52:18] <Toofifty> .help trivia
+[04/08 21:52:43] <Toofifty> .a me
+[04/08 21:54:00] Oracle3 joined #oracle3
+[04/08 21:54:07] <Toofifty> .trivia new
+[04/08 21:54:14] <Toofifty> .a 6
+[04/08 21:54:25] <Toofifty> .a 5
+[04/08 21:55:46] <Toofifty> .reload trivia2
+[04/08 21:55:49] <Toofifty> .trivia time
+[04/08 21:55:53] <Toofifty> .trivia new
+[04/08 21:55:58] <Toofifty> .trivia time
+[04/08 21:56:02] <Toofifty> .trivia time
+[04/08 21:56:20] <Toofifty> .a knowledge
+[04/08 21:56:56] <Toofifty> .reload trivia2
+[04/08 21:57:00] <Toofifty> .trivia new
+[04/08 21:57:27] <Toofifty> .a utwarzers xi
+[04/08 21:57:52] <Toofifty> .trivia new
+[04/08 21:57:55] <Toofifty> .reload trivia2
+[04/08 21:57:57] <Toofifty> .trivia new
+[04/08 21:58:13] <Toofifty> .a Ictaloris Hyphus
+[04/08 21:58:33] <Toofifty> .reload trivia2
+[04/08 21:58:35] <Toofifty> .trivia new
+[04/08 21:58:45] <Toofifty> .a 18446744073709551616
+[04/08 21:59:55] <Toofifty> .reload trivia2
+[04/08 21:59:57] <Toofifty> .trivia new
+[04/08 22:00:06] <Toofifty> .a hello games
+[04/08 22:01:30] <Toofifty> .reload trivia2
+[04/08 22:01:31] <Toofifty> .trivia new
+[04/08 22:01:51] <Toofifty> .a accuracy
+[04/08 22:02:55] <Toofifty> .reload trivia2
+[04/08 22:02:57] <Toofifty> .trivia new
+[04/08 22:03:04] <Toofifty> .a hercules
+[04/08 22:03:28] <Toofifty> .reload trivia2
+[04/08 22:03:30] <Toofifty> .trivia new
+[04/08 22:03:37] <Toofifty> .a joe danger
+[04/08 22:04:09] <Toofifty> .reload trivia2
+[04/08 22:04:11] <Toofifty> .trivia new
+[04/08 22:04:20] <Toofifty> .a project skyscraper
+[04/08 22:05:12] <Toofifty> .reload trivia2
+[04/08 22:05:15] <Toofifty> .trivia new
+[04/08 22:05:22] <Toofifty> .a 4
+[04/08 22:06:36] <Toofifty> .trivia new
+[04/08 22:06:45] <Toofifty> .trivia time
+[04/08 22:12:56] <Toofifty> .reload trivia2
+[04/08 22:13:02] <Toofifty> .trivia time
+[04/08 22:13:05] <Toofifty> .trivia ks
+[04/08 22:13:27] <Toofifty> .reload trivia2
+[04/08 22:13:30] <Toofifty> .trivia time
+[04/08 22:13:32] <Toofifty> .trivia ks
+[04/08 22:14:00] <Toofifty> .trivia ks
+[04/08 22:14:22] <Toofifty> .trivia ks
+[04/08 22:15:00] <Toofifty> .a bambi
+[04/08 22:15:50] <Toofifty> .reload trivia2
+[04/08 22:16:30] Alvv joined #oracle3
+[04/08 22:16:36] <Alvv> ACTION yawns
+[04/08 22:16:41] <Toofifty> .trivia time
+[04/08 22:16:48] <Toofifty> .trivia ks
+[04/08 22:16:55] <Alvv> .trivia ks
+[04/08 22:16:58] <Alvv> nice :D
+[04/08 22:17:03] <Alvv> .trivia time
+[04/08 22:17:05] Avohaj joined #oracle3
+[04/08 22:17:18] <Alvv> just the fact that I don't have to write 'kickstart' anymore is grrrreat
+[04/08 22:17:30] <Avohaj> so this is not about the sun database?
+[04/08 22:17:40] <Toofifty> lol
+[04/08 22:18:00] <Toofifty> it's what my bot is actually named
+[04/08 22:18:06] <Toofifty> .help alias
+[04/08 22:18:15] <Avohaj> yeah I figured
+[04/08 22:18:22] <Toofifty> .alias add "ks" ".trivia ks"
+[04/08 22:18:25] <Toofifty> ks
+[04/08 22:18:25] <Toofifty> .trivia ks
+[04/08 22:18:37] <Toofifty> does that make you happy alvv?
+[04/08 22:18:53] <Toofifty> .trivia skip
+[04/08 22:18:58] <Toofifty> damn
+[04/08 22:19:01] <Toofifty> sec
+[04/08 22:19:11] <Alvv> Yay
+[04/08 22:19:12] jbags_mobile joined #oracle3
+[04/08 22:19:24] <Toofifty> .reload trivia2
+[04/08 22:19:30] <Toofifty> .trivia new
+[04/08 22:19:30] <Alvv> .a sentinels
+[04/08 22:19:35] <Alvv> huuh
+[04/08 22:19:36] <Toofifty> .trivia skip
+[04/08 22:19:38] <Alvv> oh
+[04/08 22:19:46] <Alvv> .a vitamin d
+[04/08 22:19:47] <Toofifty> guys do what i just did pls
+[04/08 22:19:53] <Avohaj> .trivia skip
+[04/08 22:19:59] <Alvv> haha, "are you even trying"
+[04/08 22:20:00] <Alvv> great
+[04/08 22:20:03] <jbags_mobile> .trivia skip
+[04/08 22:20:05] <Alvv> .trivia skip
+[04/08 22:20:11] <Alvv> nice
+[04/08 22:20:14] <Toofifty> awesome
+[04/08 22:20:22] <jbags_mobile> .trivia help
+[04/08 22:20:32] <Avohaj> it should probably give a message that the question was skipped
+[04/08 22:20:34] <jbags_mobile> .help trivia
+[04/08 22:20:41] <Alvv> .trivia
+[04/08 22:20:46] <Alvv> .trivia replay
+[04/08 22:20:48] <Toofifty> yeah it didn't skip at all
+[04/08 22:20:53] <Avohaj> lol :D
+[04/08 22:20:55] <Alvv> .trivia repeat
+[04/08 22:20:57] <Toofifty> a lot of commands are missing btw
+[04/08 22:21:00] <Alvv> ah
+[04/08 22:21:16] <Toofifty> .reload trivia2
+[04/08 22:21:21] <Toofifty> ks
+[04/08 22:21:21] <Toofifty> .trivia ks
+[04/08 22:21:26] <Avohaj> ks
+[04/08 22:21:31] <jbags_mobile> The help didn't do anything by the way
+[04/08 22:21:33] <Avohaj> mhm
+[04/08 22:21:35] <Toofifty> aliases are personal
+[04/08 22:21:41] <Avohaj> .trivia kickstart
+[04/08 22:21:44] <Toofifty> yeah trivia help is broken for some reason
+[04/08 22:21:58] <jbags_mobile> .reload trivia 2
+[04/08 22:22:09] <jbags_mobile> Ks
+[04/08 22:22:19] <Toofifty> .alias gadd "hi" ".say $nick$ is the best"
+[04/08 22:22:23] <Toofifty> hi
+[04/08 22:22:23] <Toofifty> .say $nick$ is the best
+[04/08 22:22:34] <Toofifty> .alias list
+[04/08 22:22:38] <Toofifty> o/
+[04/08 22:22:38] <Toofifty> .say \o
+[04/08 22:22:44] <Avohaj> oh that's global add, not a typo?
+[04/08 22:22:49] <Toofifty> yep
+[04/08 22:22:52] <Toofifty> .alias glist
+[04/08 22:23:08] <Avohaj> .alias list
+[04/08 22:23:15] <Avohaj> .alias glist
+[04/08 22:23:21] <jbags_mobile> .alias "ks" ".trivia kickstart"
+[04/08 22:23:22] <Avohaj> aww
+[04/08 22:23:35] <Toofifty> someone say hi
+[04/08 22:23:37] <Avohaj> hi
+[04/08 22:23:37] <Avohaj> .say $nick$ is the best
+[04/08 22:23:39] <jbags_mobile> Hi
+[04/08 22:23:48] <jbags_mobile> hi
+[04/08 22:23:48] <jbags_mobile> .say $nick$ is the best
+[04/08 22:23:49] <Toofifty> ok cool
+[04/08 22:24:12] <Toofifty> might want to make global aliases accessible without ranks
+[04/08 22:24:28] <jbags_mobile> Good idea
+[04/08 22:24:30] <Toofifty> so i can add commands with it on the fly
+[04/08 22:24:55] <Toofifty> eg
+[04/08 22:25:15] <Toofifty> .alias gadd ".nms" ".say https://www.reddit.com/r/NoMansSkyTheGame"
+[04/08 22:25:18] <Toofifty> .nms
+[04/08 22:25:18] <Toofifty> .say https://www.reddit.com/r/NoMansSkyTheGame
+[04/08 22:25:27] <jbags_mobile> .nms
+[04/08 22:25:27] <jbags_mobile> .say https://www.reddit.com/r/NoMansSkyTheGame
+[04/08 22:25:39] <Toofifty> .trivia time
+[04/08 22:25:43] <Toofifty> $trivia time
+[04/08 22:26:25] <Toofifty> .alias rem .ks
+[04/08 22:26:34] <Toofifty> ks
+[04/08 22:26:34] <Toofifty> .trivia ks
+[04/08 22:26:40] <Toofifty> ks
+[04/08 22:26:40] <Toofifty> .trivia ks
+[04/08 22:26:48] <Toofifty> .trivia skip
+[04/08 22:26:53] <Toofifty> skip pls
+[04/08 22:27:02] <Toofifty> .trivia skip
+[04/08 22:27:09] <Toofifty> .trivia skip
+[04/08 22:27:12] <Toofifty> .trivia skip
+[04/08 22:27:13] Hubnester_Spode87 joined #oracle3
+[04/08 22:27:17] <Hubnester_Spode87> Hai
+[04/08 22:27:22] <Toofifty> o/
+[04/08 22:27:22] <Toofifty> .say \o
+[04/08 22:27:34] <Hubnester_Spode87> \o/
+[04/08 22:27:47] <Toofifty> .trivia time
+[04/08 22:27:58] <Hubnester_Spode87> .trivia
+[04/08 22:28:02] <Hubnester_Spode87> .trivia stats
+[04/08 22:28:10] <Hubnester_Spode87> .trivia time
+[04/08 22:28:13] <Hubnester_Spode87> .trivia ks
+[04/08 22:28:19] <Hubnester_Spode87> .trivia skip
+[04/08 22:28:28] <Toofifty> lol
+[04/08 22:28:32] <jbags_mobile> .trivia time
+[04/08 22:28:39] <jbags_mobile> .trivia kickstart
+[04/08 22:28:39] <Toofifty> something wrong with skip + ks
+[04/08 22:28:57] <jbags_mobile> .trivia ks
+[04/08 22:29:01] <Hubnester_Spode87> Maybe make a shorter timer?
+[04/08 22:29:38] <Toofifty> i might
+[04/08 22:29:51] <Toofifty> .reload trivia2
+[04/08 22:29:57] <Toofifty> ks
+[04/08 22:29:57] <Toofifty> .trivia ks
+[04/08 22:30:21] <Hubnester_Spode87> People can skip timer by changing nickname anyway
+[04/08 22:30:31] <Toofifty> not anymore
+[04/08 22:30:40] <Toofifty> it uses your vhost instead now
+[04/08 22:31:02] <Hubnester_Spode87> So, I can no longer have a bot that skips trivia timer for me :C
+[04/08 22:31:07] <Toofifty> so you have to at least use a new client
+[04/08 22:31:12] <jbags_mobile> .a 299792458
+[04/08 22:31:13] <Hubnester_Spode87> Fair enough
+[04/08 22:31:13] <Toofifty> nah that'll work
+[04/08 22:31:39] <Toofifty> it's 3*10^8
+[04/08 22:31:39] <jbags_mobile> .a 229,792,458 m/s
+[04/08 22:31:47] <Hubnester_Spode87> .a 3*10^8
+[04/08 22:31:56] <Hubnester_Spode87> Wow
+[04/08 22:31:59] <jbags_mobile> But
+[04/08 22:32:04] <Hubnester_Spode87> Is there categories of questions now?
+[04/08 22:32:08] <Hubnester_Spode87> *Are
+[04/08 22:32:11] <Toofifty> yep
+[04/08 22:32:15] <Hubnester_Spode87> Nice
+[04/08 22:32:20] <Toofifty> and different modes of trivia in the works
+[04/08 22:32:23] <Hubnester_Spode87> .a knowledge
+[04/08 22:32:35] <jbags_mobile> Haha
+[04/08 22:32:36] <Toofifty> hence the <General: regular> in the question
+[04/08 22:32:40] <Hubnester_Spode87> Still the same questions lol
+[04/08 22:32:48] <Toofifty> haven't added any new ones
+[04/08 22:33:15] <Toofifty> .trivia new
+[04/08 22:33:35] <Toofifty> i'm gonna add 3 more trivia modes: hard, risk, and challenge
+[04/08 22:33:48] <Toofifty> hard is a 2min timer and one guess per person
+[04/08 22:33:52] <Hubnester_Spode87> .a 10
+[04/08 22:34:03] <Toofifty> risk is no timer but cost of 50p per guess
+[04/08 22:34:25] <Toofifty> challenge is for 3+ people all answering a set of 5 questions seperately
+[04/08 22:34:33] <Hubnester_Spode87> Nice!
+[04/08 22:34:38] <Hubnester_Spode87> Cool ideas
+[04/08 22:34:42] <Toofifty> whoever gets the most wins lots of points
+[04/08 22:34:56] <Hubnester_Spode87> But risk will be too easy to get points I think
+[04/08 22:35:21] <Hubnester_Spode87> .a Sean Murray
+[04/08 22:35:57] <Toofifty> sec
+[04/08 22:35:59] <Toofifty> .close
+[04/08 22:36:02] <Toofifty> .stop
+[04/08 22:36:18] Oracle3 joined #oracle3
+[04/08 22:36:22] <Toofifty> .trivia new
+[04/08 22:36:48] <Toofifty> and btw now it won't repeat questions until all of them have been asked
+[04/08 22:37:09] <Toofifty> .a madonna
+[04/08 22:37:44] <Toofifty>  ^^^^
+[04/08 22:37:48] <Toofifty> :)
+[04/08 22:39:28] <Toofifty> .help trivia
+[04/08 22:39:34] <Toofifty> .help trivia2
+[04/08 22:39:43] <Toofifty> ah
+[04/08 22:39:48] <Hubnester_Spode87> That's cool
+[04/08 22:39:53] <Hubnester_Spode87> No more free points!
+[04/08 22:40:26] <Hubnester_Spode87> Will scores be deleted after an update?
+[04/08 22:40:46] <Toofifty> i'll transfer them over on request
+[04/08 22:40:47] <Hubnester_Spode87> .a gold
+[04/08 22:40:56] <Hubnester_Spode87> Okay
+[04/08 22:41:18] <Toofifty> .trivia time
+[04/08 22:41:20] <Hubnester_Spode87> Spectral type?
+[04/08 22:41:37] <Hubnester_Spode87> Oh, okay
+[04/08 22:41:43] <Hubnester_Spode87> I can't English
+[04/08 22:41:50] <Toofifty> :P
+[04/08 22:41:52] <Hubnester_Spode87> .trivia ks
+[04/08 22:42:08] <Hubnester_Spode87> .a konongko
+[04/08 22:42:26] <Hubnester_Spode87> .a vesta prime
+[04/08 22:43:00] <Hubnester_Spode87> .score
+[04/08 22:43:03] <Hubnester_Spode87> .score top
+[04/08 22:43:04] <Toofifty> .trivia ks
+[04/08 22:43:04] <Toofifty> .trivia time
+[04/08 22:43:17] <Hubnester_Spode87> .a planets in NMS
+[04/08 22:43:22] <Hubnester_Spode87> .a 18 quintillions
+[04/08 22:43:49] <Hubnester_Spode87> .a 18 446 744 073 709 551 616
+[04/08 22:43:56] <Hubnester_Spode87> WTF
+[04/08 22:44:13] <Hubnester_Spode87> .a fraction
+[04/08 22:44:18] <Toofifty> .a 18446744073709551616
+[04/08 22:44:20] <Toofifty> lol
+[04/08 22:44:29] <Hubnester_Spode87> LOL
+[04/08 22:44:41] <Hubnester_Spode87> Stupid question :C
+[04/08 22:44:48] <Toofifty> ks
+[04/08 22:44:48] <Toofifty> .trivia ks
+[04/08 22:44:48] <Toofifty> ks
+[04/08 22:44:48] <Toofifty> .trivia ks
+[04/08 22:44:48] <Toofifty> ks
+[04/08 22:44:48] <Toofifty> .trivia ks
+[04/08 22:44:48] <Toofifty> ks
+[04/08 22:44:48] <Toofifty> .trivia ks
+[04/08 22:44:58] <Hubnester_Spode87> It's either Google or calculator
+[04/08 22:45:07] <Toofifty> pretty much
+[04/08 22:45:15] <Hubnester_Spode87> .a Kuju
+[04/08 22:45:18] <Hubnester_Spode87> .a EA
+[04/08 22:45:41] <Hubnester_Spode87> .help
+[04/08 22:45:53] <Hubnester_Spode87> .help Oracle3
+[04/08 22:46:06] <Hubnester_Spode87> ks
+[04/08 22:46:14] <Hubnester_Spode87> =/
+[04/08 22:46:18] <Hubnester_Spode87> .trivia ks
+[04/08 22:46:19] <Toofifty> ^ .help alias
+[04/08 22:46:39] <Hubnester_Spode87> Fucking star and planet's names
+[04/08 22:46:39] <Toofifty> .help alias
+[04/08 22:46:47] <Hubnester_Spode87> .help alias
+[04/08 22:46:58] <Toofifty> .alias gadd "ks" ".trivia ks"
+[04/08 22:47:07] <Hubnester_Spode87> .alias glist
+[04/08 22:47:11] <Hubnester_Spode87> Wow, that's cool
+[04/08 22:47:14] <Toofifty> ks
+[04/08 22:47:14] <Toofifty> .trivia ks
+[04/08 22:47:19] <Hubnester_Spode87> hi
+[04/08 22:47:19] <Hubnester_Spode87> .say $nick$ is the best
+[04/08 22:47:23] <Hubnester_Spode87> lel
+[04/08 22:47:28] <Toofifty> need to fix that
+[04/08 22:47:28] <Hubnester_Spode87> .a Sean Murray
+[04/08 22:47:40] <Hubnester_Spode87> It repeated. Bug?
+[04/08 22:48:04] <Toofifty> after i restarted the bot
+[04/08 22:48:20] <Hubnester_Spode87> Okay
+[04/08 22:48:50] <Hubnester_Spode87> What language your bot is written in?
+[04/08 22:49:00] <Toofifty> python
+[04/08 22:49:07] <Hubnester_Spode87> Nice. I like Python :D
+[04/08 22:49:29] <Hubnester_Spode87> I wrote a bot in Python too. It basically does nothing x)
+[04/08 22:49:41] <Toofifty> haha :P nice
+[04/08 22:53:27] <Toofifty> hmm
+[04/08 22:53:43] <Toofifty> oh wait no that's right
+[04/08 22:53:51] <Toofifty> i set the interval to 2min
+[04/08 23:01:23] <Hubnester_Spode87> .a Atlas
+[04/08 23:01:29] <Hubnester_Spode87> .trivia ks
+[04/08 23:01:45] <Hubnester_Spode87> .a Pluto
+[04/08 23:01:52] <Hubnester_Spode87> .trivia ks
+[04/08 23:02:14] <Hubnester_Spode87> Do we know this?
+[04/08 23:02:15] <Hubnester_Spode87> lol
+[04/08 23:07:56] <Toofifty> .a oxycen
+[04/08 23:08:04] <Toofifty> .a julia gillard
+[04/08 23:09:39] <Toofifty> .reload trivia2
+[04/08 23:09:43] <Toofifty> .ks
+[04/08 23:09:44] <Toofifty> ks
+[04/08 23:09:44] <Toofifty> .trivia ks
+[04/08 23:09:51] <Toofifty> .a units
+[04/08 23:10:09] <Toofifty> .reload trivia2
+[04/08 23:10:53] <Toofifty> .reload trivia2
+[04/08 23:10:56] <Toofifty> .trivia new
+[04/08 23:10:57] <Toofifty> .ks
+[04/08 23:10:59] <Toofifty> ks
+[04/08 23:10:59] <Toofifty> .trivia ks
+[04/08 23:11:14] <Toofifty> .a simon stalenhag
+[04/08 23:11:34] <Toofifty> .reload trivia2
+[04/08 23:11:36] <Toofifty> .trivia new
+[04/08 23:11:41] <Toofifty> .a acid
+[04/08 23:13:26] <Alvv> units :D
+[04/08 23:13:52] <Alvv> .a gorgonzola
+[04/08 23:14:06] <Alvv> .a macaroni
+[04/08 23:14:35] <Alvv> .a spaghetti
+[04/08 23:44:39] jbags_mobile joined #oracle3
+[04/08 23:46:02] <jbags_mobile> .a knowledge
+[05/08 00:06:15] <Toofifty> .stop

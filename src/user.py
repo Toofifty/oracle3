@@ -24,6 +24,9 @@ class User(object):
         if self.seen == 0:
             self.was_seen()
 
+    def message(self, *msg):
+        self.bot.notice(self.nick, *msg)
+
     def was_seen(self):
         self.seen = time.time()
         self.save()

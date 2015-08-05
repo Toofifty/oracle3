@@ -237,9 +237,11 @@ class IRC(socket.socket):
                 time.sleep(0.5)
 
             except KeyboardInterrupt:
+                self.plugins.destroy_mods(self)
                 raise
 
             except SystemExit:
+                self.plugins.destroy_mods(self)
                 raise
 
             except Exception:

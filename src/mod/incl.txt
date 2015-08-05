@@ -5,3 +5,4 @@ emotes
 help
 log
 util
+trivia2

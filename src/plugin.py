@@ -27,6 +27,12 @@ class PluginLoader(object):
 
             self.load_mod(mod_name, bot)
 
+    def destroy_mods(self, bot):
+        # Run _del on all mods before terminating the bot
+        # VERY necessary to remove hanging threads
+        for mod in self.mods:
+            mod._del(bot)
+
     def get_mod(self, mod_name):
         # Loads the mod from string
 
