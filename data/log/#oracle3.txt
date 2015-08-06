@@ -626,3 +626,368 @@
 [04/08 23:44:39] jbags_mobile joined #oracle3
 [04/08 23:46:02] <jbags_mobile> .a knowledge
 [05/08 00:06:15] <Toofifty> .stop
+[05/08 20:27:31] Oracle3 joined #oracle3
+[05/08 20:27:36] Toofifty joined #oracle3
+[05/08 20:27:40] <Toofifty> .help
+[05/08 20:27:44] <Toofifty> .help trivia2
+[05/08 20:27:50] <Toofifty> .trivia stats
+[05/08 20:30:10] <Toofifty> .alias add "rt" ".reload trivia2"
+[05/08 20:30:13] <Toofifty> rt
+[05/08 20:30:13] <Toofifty> .reload trivia2
+[05/08 20:30:18] <Toofifty> .trivia stats
+[05/08 20:30:47] <Toofifty> rt
+[05/08 20:30:47] <Toofifty> .reload trivia2
+[05/08 20:30:49] <Toofifty> .trivia stats
+[05/08 20:31:30] <Toofifty> rt
+[05/08 20:31:30] <Toofifty> .reload trivia2
+[05/08 20:31:31] <Toofifty> .trivia stats
+[05/08 20:33:03] <Toofifty> rt
+[05/08 20:33:03] <Toofifty> .reload trivia2
+[05/08 20:33:05] <Toofifty> .trivia stats
+[05/08 20:33:22] <Toofifty> rt
+[05/08 20:33:22] <Toofifty> .reload trivia2
+[05/08 20:33:24] <Toofifty> .trivia stats
+[05/08 20:33:44] <Toofifty> rt
+[05/08 20:33:44] <Toofifty> .reload trivia2
+[05/08 20:33:46] <Toofifty> .trivia stats
+[05/08 20:34:46] <Toofifty> rt
+[05/08 20:34:46] <Toofifty> .reload trivia2
+[05/08 20:34:48] <Toofifty> .trivia stats
+[05/08 20:39:45] <Toofifty> rl
+[05/08 20:39:53] <Toofifty> rt
+[05/08 20:39:53] <Toofifty> .reload trivia2
+[05/08 20:39:56] <Toofifty> .trivia stats
+[05/08 20:41:31] <Toofifty> rt
+[05/08 20:41:31] <Toofifty> .reload trivia2
+[05/08 20:41:33] <Toofifty> .trivia stats
+[05/08 20:41:44] <Toofifty> rt
+[05/08 20:41:44] <Toofifty> .reload trivia2
+[05/08 20:41:46] <Toofifty> .trivia stats
+[05/08 20:42:15] <Toofifty> rt
+[05/08 20:42:15] <Toofifty> .reload trivia2
+[05/08 20:42:16] <Toofifty> .trivia stats
+[05/08 20:43:16] <Toofifty> rt
+[05/08 20:43:16] <Toofifty> .reload trivia2
+[05/08 20:43:17] <Toofifty> .trivia stats
+[05/08 20:43:38] <Toofifty> rt
+[05/08 20:43:38] <Toofifty> .reload trivia2
+[05/08 20:43:39] <Toofifty> .trivia stats
+[05/08 20:43:56] <Toofifty> rt
+[05/08 20:43:56] <Toofifty> .reload trivia2
+[05/08 20:43:57] <Toofifty> .trivia stats
+[05/08 20:44:34] <Toofifty> rt
+[05/08 20:44:34] <Toofifty> .reload trivia2
+[05/08 20:44:36] <Toofifty> .trivia stats
+[05/08 20:45:33] <Toofifty> rt
+[05/08 20:45:33] <Toofifty> .reload trivia2
+[05/08 20:45:35] <Toofifty> .trivia stats
+[05/08 20:48:48] <Toofifty> rt
+[05/08 20:48:48] <Toofifty> .reload trivia2
+[05/08 20:48:49] <Toofifty> .trivia stats
+[05/08 20:50:16] <Toofifty> rt
+[05/08 20:50:16] <Toofifty> .reload trivia2
+[05/08 20:50:17] <Toofifty> .trivia stats
+[05/08 20:55:24] <Toofifty> rt
+[05/08 20:55:24] <Toofifty> .reload trivia2
+[05/08 20:55:25] <Toofifty> .trivia stats
+[05/08 20:56:08] <Toofifty> rt
+[05/08 20:56:08] <Toofifty> .reload trivia2
+[05/08 20:56:10] <Toofifty> .trivia stats
+[05/08 20:56:50] <Toofifty> rt
+[05/08 20:56:50] <Toofifty> .reload trivia2
+[05/08 20:56:52] <Toofifty> .trivia stats
+[05/08 20:57:06] <Toofifty> rt
+[05/08 20:57:06] <Toofifty> .reload trivia2
+[05/08 20:57:09] <Toofifty> .trivia stats
+[05/08 21:00:55] <Toofifty> rt
+[05/08 21:00:55] <Toofifty> .reload trivia2
+[05/08 21:00:56] <Toofifty> .trivia stats
+[05/08 21:01:01] <Toofifty> .trivia stats no
+[05/08 21:01:16] <Toofifty> .trivia stats
+[05/08 21:01:18] <Toofifty> .trivia stats no
+[05/08 21:02:52] <Toofifty> rt
+[05/08 21:02:52] <Toofifty> .reload trivia2
+[05/08 21:02:53] <Toofifty> .trivia stats
+[05/08 21:02:56] <Toofifty> .trivia stats no
+[05/08 21:03:01] <Toofifty> .trivia stats man
+[05/08 21:03:07] <Toofifty> .trivia stats n
+[05/08 21:06:27] <Toofifty> rt
+[05/08 21:06:27] <Toofifty> .reload trivia2
+[05/08 21:06:28] <Toofifty> .trivia stats n
+[05/08 21:07:05] <Toofifty> .alias new tt ".trivia time"
+[05/08 21:07:09] <Toofifty> .alias add tt ".trivia time"
+[05/08 21:07:15] <Toofifty> .alias add "tt" ".trivia time"
+[05/08 21:07:19] <Toofifty> tt
+[05/08 21:07:19] <Toofifty> .trivia time
+[05/08 21:07:46] <Toofifty> ks
+[05/08 21:07:46] <Toofifty> .trivia ks
+[05/08 21:07:54] <Toofifty> .a 1
+[05/08 21:08:25] <Toofifty> rt
+[05/08 21:08:25] <Toofifty> .reload trivia2
+[05/08 21:08:27] <Toofifty> ks
+[05/08 21:08:27] <Toofifty> .trivia ks
+[05/08 21:08:32] <Toofifty> .a oxycen
+[05/08 21:08:41] <Toofifty> .trivia stats
+[05/08 21:08:46] <Toofifty> .help trivia
+[05/08 21:08:51] <Toofifty> .help trivia2
+[05/08 21:09:48] <Toofifty> rt
+[05/08 21:09:48] <Toofifty> .reload trivia2
+[05/08 21:09:52] <Toofifty> .trivia stats t
+[05/08 21:09:57] <Toofifty> .trivia stats l
+[05/08 21:10:09] <Toofifty> .trivia stats al
+[05/08 21:10:13] <Toofifty> .trivia stats t
+[05/08 21:10:17] <Toofifty> .trivia stats T
+[05/08 21:10:49] <Toofifty> a
+[05/08 21:10:55] <Toofifty> tt
+[05/08 21:10:55] <Toofifty> .trivia time
+[05/08 21:11:00] <Toofifty> tt
+[05/08 21:11:00] <Toofifty> .trivia time
+[05/08 21:11:05] <Toofifty> tt
+[05/08 21:11:05] <Toofifty> .trivia time
+[05/08 21:11:16] <Toofifty> .trivia new
+[05/08 21:15:00] <Toofifty> .trivia new
+[05/08 21:15:05] <Toofifty> .help
+[05/08 21:15:18] <Toofifty> tt
+[05/08 21:15:18] <Toofifty> .trivia time
+[05/08 21:15:27] <Toofifty> tt
+[05/08 21:15:27] <Toofifty> .trivia time
+[05/08 21:15:56] <Toofifty> rt
+[05/08 21:15:56] <Toofifty> .reload trivia2
+[05/08 21:15:57] <Toofifty> tt
+[05/08 21:15:57] <Toofifty> .trivia time
+[05/08 21:15:59] <Toofifty> ks
+[05/08 21:15:59] <Toofifty> .trivia ks
+[05/08 21:16:06] <Toofifty> .a forty
+[05/08 21:16:07] <Toofifty> ks
+[05/08 21:16:07] <Toofifty> .trivia ks
+[05/08 21:16:53] <Toofifty> rt
+[05/08 21:16:53] <Toofifty> .reload trivia2
+[05/08 21:16:54] <Toofifty> ks
+[05/08 21:16:54] <Toofifty> .trivia ks
+[05/08 21:16:58] <Toofifty> ks
+[05/08 21:16:58] <Toofifty> .trivia ks
+[05/08 21:17:05] <Toofifty> .trivia skip
+[05/08 21:17:36] <Toofifty> tt
+[05/08 21:17:36] <Toofifty> .trivia time
+[05/08 21:18:55] <Toofifty> rt
+[05/08 21:18:55] <Toofifty> .reload trivia2
+[05/08 21:18:56] <Toofifty> ks
+[05/08 21:18:56] <Toofifty> .trivia ks
+[05/08 21:19:03] <Toofifty> .a oxycen
+[05/08 21:19:04] <Toofifty> ks
+[05/08 21:19:04] <Toofifty> .trivia ks
+[05/08 21:19:56] <Toofifty> rt
+[05/08 21:19:56] <Toofifty> .reload trivia2
+[05/08 21:19:58] <Toofifty> ks
+[05/08 21:19:58] <Toofifty> .trivia ks
+[05/08 21:20:05] <Toofifty> .trivia skip
+[05/08 21:20:11] <Toofifty> .trivia skip
+[05/08 21:25:06] <Toofifty> .trivia stats
+[05/08 21:26:07] Alvvv joined #oracle3
+[05/08 21:26:10] <Alvvv> Hi
+[05/08 21:26:24] <Toofifty> yo
+[05/08 21:26:26] <Toofifty> .a red
+[05/08 21:26:32] <Toofifty> ks
+[05/08 21:26:32] <Toofifty> .trivia ks
+[05/08 21:26:40] <Toofifty> .a aaaaaaaaaa
+[05/08 21:26:49] <Alvvv> Ooh
+[05/08 21:26:51] <Alvvv> Nice
+[05/08 21:27:10] <Alvvv> .a yes
+[05/08 21:27:30] <Toofifty> .a accuracy
+[05/08 21:27:44] <Toofifty> $trivia stats
+[05/08 21:27:54] <Alvvv> Nice
+[05/08 21:28:00] <Toofifty> :3
+[05/08 21:28:08] <Toofifty> tt
+[05/08 21:28:08] <Toofifty> .trivia time
+[05/08 21:28:13] <Toofifty> ks
+[05/08 21:28:13] <Toofifty> .trivia ks
+[05/08 21:28:30] <Toofifty> .a 12
+[05/08 21:28:34] <Toofifty> .a 3
+[05/08 21:28:38] <Toofifty> sweet
+[05/08 21:28:58] <Toofifty> .trivia skip
+[05/08 21:29:44] <Alvvv> .trivia skip
+[05/08 21:30:51] <Alvvv> .a gavel
+[05/08 21:31:07] <Toofifty> .stop
+[05/08 21:31:19] Oracle3 joined #oracle3
+[05/08 21:31:33] <Toofifty> .alias add "tn" ".trivia new"
+[05/08 21:31:35] <Toofifty> tn
+[05/08 21:31:35] <Toofifty> .trivia new
+[05/08 21:31:54] <Toofifty> .a toofifty
+[05/08 21:32:05] <Alvvv> Haha
+[05/08 21:33:30] <Toofifty> rt
+[05/08 21:33:30] <Toofifty> .reload trivia2
+[05/08 21:33:33] <Toofifty> tn
+[05/08 21:33:33] <Toofifty> .trivia new
+[05/08 21:33:51] <Toofifty> .a gta
+[05/08 21:33:57] <Toofifty> tn
+[05/08 21:33:57] <Toofifty> .trivia new
+[05/08 21:34:05] <Toofifty> hmm
+[05/08 21:34:18] <Toofifty> .trivia enter
+[05/08 21:34:50] <Alvvv> .trivia enter
+[05/08 21:35:39] <Alvvv> I'm playing rocket League so this might be hard to do
+[05/08 21:35:44] <Toofifty> srs
+[05/08 21:35:50] <Toofifty> rocket league is awesome
+[05/08 21:35:55] <Toofifty> pc or ps4?
+[05/08 21:37:01] <Alvvv> Ps4
+[05/08 21:37:11] <Alvvv> .a gavel
+[05/08 21:37:54] <Toofifty> psn? i'll play wit u
+[05/08 21:38:01] <Toofifty> tt
+[05/08 21:38:01] <Toofifty> .trivia time
+[05/08 21:38:32] <Toofifty> rt
+[05/08 21:38:32] <Toofifty> .reload trivia2
+[05/08 21:39:46] <Alvvv> What do you play it on?
+[05/08 21:40:16] <Alvvv> Oh
+[05/08 21:40:48] <Toofifty> i've got it on both pc and ps4 haha
+[05/08 21:41:13] <Alvvv> Haha
+[05/08 21:41:17] <Alvvv> One line
+[05/08 21:41:20] <Alvvv> Minute
+[05/08 21:44:13] <Alvvv> Alvstege13 is my psn
+[05/08 21:50:10] <Toofifty> mk will be on in a sec
+[05/08 21:52:24] <Toofifty> ew 1.8gb update
+[05/08 21:52:49] <Alvvv> :c
+[05/08 21:52:58] <Alvvv> Imma take a shower then
+[05/08 21:53:27] <Toofifty> ight
+[05/08 21:54:30] <Toofifty> tt
+[05/08 21:54:30] <Toofifty> .trivia time
+[05/08 21:58:20] <Toofifty> tt
+[05/08 21:58:20] <Toofifty> .trivia time
+[05/08 21:58:40] <Toofifty> .a gavel
+[05/08 21:58:41] <Toofifty> ks
+[05/08 21:58:41] <Toofifty> .trivia ks
+[05/08 22:00:56] <Alvvv> .trivia enter
+[05/08 22:04:34] <Toofifty> tt
+[05/08 22:04:34] <Toofifty> .trivia time
+[05/08 22:04:40] <Toofifty> hmm
+[05/08 22:06:34] <Toofifty> rt
+[05/08 22:06:34] <Toofifty> .reload trivia2
+[05/08 22:06:36] <Toofifty> tn
+[05/08 22:06:36] <Toofifty> .trivia new
+[05/08 22:06:42] <Toofifty> tn
+[05/08 22:06:42] <Toofifty> .trivia new
+[05/08 22:06:46] <Toofifty> tn
+[05/08 22:06:46] <Toofifty> .trivia new
+[05/08 22:06:52] <Toofifty> tn
+[05/08 22:06:52] <Toofifty> .trivia new
+[05/08 22:06:57] <Toofifty> tn
+[05/08 22:06:57] <Toofifty> .trivia new
+[05/08 22:07:03] <Toofifty> tn
+[05/08 22:07:03] <Toofifty> .trivia new
+[05/08 22:07:11] <Toofifty> tt
+[05/08 22:07:11] <Toofifty> .trivia time
+[05/08 22:08:49] <Toofifty> rt
+[05/08 22:08:49] <Toofifty> .reload trivia2
+[05/08 22:08:51] <Toofifty> tn
+[05/08 22:08:51] <Toofifty> .trivia new
+[05/08 22:08:57] <Toofifty> tt
+[05/08 22:08:57] <Toofifty> .trivia time
+[05/08 22:09:01] <Toofifty> tt
+[05/08 22:09:01] <Toofifty> .trivia time
+[05/08 22:09:05] <Toofifty> hmm
+[05/08 22:09:27] <Toofifty> oh derp
+[05/08 22:09:58] <Toofifty> rt
+[05/08 22:09:58] <Toofifty> .reload trivia2
+[05/08 22:10:02] <Toofifty> tn
+[05/08 22:10:02] <Toofifty> .trivia new
+[05/08 22:10:05] <Toofifty> tn
+[05/08 22:10:05] <Toofifty> .trivia new
+[05/08 22:10:11] <Toofifty> tn
+[05/08 22:10:11] <Toofifty> .trivia new
+[05/08 22:10:16] <Toofifty> tt
+[05/08 22:10:16] <Toofifty> .trivia time
+[05/08 22:10:21] <Toofifty> sweet
+[05/08 22:10:25] <Toofifty> .trivia enter
+[05/08 22:10:34] <Toofifty> Alvvv: .trivia enter
+[05/08 22:10:38] <Toofifty> pls
+[05/08 22:11:45] <Toofifty> tt
+[05/08 22:11:45] <Toofifty> .trivia time
+[05/08 22:11:55] <Alvvv> .trivia enter
+[05/08 22:12:10] Threefifty joined #oracle3
+[05/08 22:12:10] <Toofifty> tt
+[05/08 22:12:10] <Toofifty> .trivia time
+[05/08 22:12:26] <Alvvv> .a ps4
+[05/08 22:12:32] <Alvvv> .a 7
+[05/08 22:13:36] <Toofifty> aaand error
+[05/08 22:15:54] <Toofifty> rt
+[05/08 22:15:54] <Toofifty> .reload trivia2
+[05/08 22:15:59] <Toofifty> tn
+[05/08 22:15:59] <Toofifty> .trivia new
+[05/08 22:16:03] <Toofifty> tn
+[05/08 22:16:03] <Toofifty> .trivia new
+[05/08 22:16:10] <Toofifty> .trivia enter
+[05/08 22:16:21] <Threefifty> .trivia enter
+[05/08 22:17:10] <Toofifty> tt
+[05/08 22:17:10] <Toofifty> .trivia time
+[05/08 22:18:12] <Toofifty> .a 7
+[05/08 22:18:27] <Toofifty> rt
+[05/08 22:18:27] <Toofifty> .reload trivia2
+[05/08 22:18:40] <Toofifty> .stop
+[05/08 22:20:30] Oracle3 joined #oracle3
+[05/08 22:20:32] <Toofifty> tn
+[05/08 22:20:32] <Toofifty> .trivia new
+[05/08 22:20:38] <Toofifty> .trivia enter
+[05/08 22:20:44] <Threefifty> .trivia enter
+[05/08 22:21:50] <Toofifty> tt
+[05/08 22:21:50] <Toofifty> .trivia time
+[05/08 22:22:41] <Toofifty> .a butts
+[05/08 22:23:08] <Toofifty> .a gavel
+[05/08 22:23:26] <Toofifty> .a forty
+[05/08 22:26:07] <Toofifty> rt
+[05/08 22:26:07] <Toofifty> .reload trivia2
+[05/08 22:26:09] <Toofifty> tn
+[05/08 22:26:09] <Toofifty> .trivia new
+[05/08 22:26:16] <Toofifty> .trivia enter
+[05/08 22:26:19] <Threefifty> .trivia enter
+[05/08 22:27:32] <Toofifty> update almost done alvvv
+[05/08 22:27:36] <Toofifty> took long enough >.>
+[05/08 22:27:52] <Toofifty> rt
+[05/08 22:27:52] <Toofifty> .reload trivia2
+[05/08 22:27:54] <Toofifty> tn
+[05/08 22:27:54] <Toofifty> .trivia new
+[05/08 22:27:59] <Toofifty> tn
+[05/08 22:27:59] <Toofifty> .trivia new
+[05/08 22:28:02] <Toofifty> tn
+[05/08 22:28:02] <Toofifty> .trivia new
+[05/08 22:28:07] <Toofifty> tn
+[05/08 22:28:07] <Toofifty> .trivia new
+[05/08 22:28:11] <Toofifty> tn
+[05/08 22:28:11] <Toofifty> .trivia new
+[05/08 22:28:24] <Toofifty> tn
+[05/08 22:28:24] <Toofifty> .trivia new
+[05/08 22:28:29] <Alvvv> Ok, tell me when
+[05/08 22:28:34] <Toofifty> tn
+[05/08 22:28:34] <Toofifty> .trivia new
+[05/08 22:28:39] <Toofifty> tn
+[05/08 22:28:39] <Toofifty> .trivia new
+[05/08 22:28:43] <Toofifty> tn
+[05/08 22:28:43] <Toofifty> .trivia new
+[05/08 22:28:51] <Toofifty> tn
+[05/08 22:28:51] <Toofifty> .trivia new
+[05/08 22:28:54] <Toofifty> tn
+[05/08 22:28:54] <Toofifty> .trivia new
+[05/08 22:28:59] <Toofifty> finally
+[05/08 22:29:01] <Toofifty> .trivia enter
+[05/08 22:29:05] <Threefifty> .trivia enter
+[05/08 22:30:02] <Toofifty> update done alvvv
+[05/08 22:31:04] <Toofifty> .a 2014
+[05/08 22:31:07] <Toofifty> .a 2013
+[05/08 22:31:16] <Toofifty> erm
+[05/08 22:31:45] <Toofifty> .a 7
+[05/08 22:32:00] <Toofifty> .a red
+[05/08 22:32:05] <Threefifty> .a red
+[05/08 22:33:31] <Toofifty> err... do i need ps+ to play online or can i really not connect to the rl servers
+[05/08 22:33:36] <Toofifty> :s
+[05/08 22:35:54] <Toofifty> dw, all good
+[05/08 22:38:54] <Alvvv> I'm lagging like he'll
+[05/08 22:38:56] <Alvvv> Hell
+[05/08 22:44:12] <Toofifty> yeah sorry
+[05/08 22:44:17] <Toofifty> what servers are best for you?
+[05/08 22:44:31] <Toofifty> it put us on an aussie one
+[05/08 22:44:35] <Alvvv> Ok
+[05/08 22:45:04] <Toofifty> eu, us w or us e?
+[05/08 22:45:50] <Alvvv> Europe is best, but eu e works
+[05/08 22:46:22] <Toofifty> ok let's see what ping i get lol
+[05/08 22:47:39] <Alvvv> We can try a us server
+[05/08 22:48:38] <Toofifty> hahaha
+[05/08 23:16:27] <Toofifty> last game alvvv
+[05/08 23:16:37] <Alvvv> Ok
+[05/08 23:17:43] <Toofifty> lol

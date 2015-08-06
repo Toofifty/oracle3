@@ -19,7 +19,7 @@ FORMAT = '[%sTrivia%s]' % (PURPLE, RESET)
 def _init(b):
     print '^^^ %s loaded' % __name__
     global trivia_handler
-    trivia_handler = TriviaHandler(120, b)
+    trivia_handler = TriviaHandler(600, b)
     trivia_handler.start()
 
 def _del(b):
@@ -79,6 +79,7 @@ def trivia(bot, cmd):
         !r user
     !c stats
         !d Get personal trivia stats
+        !a [category...]
         !r user
     """
     def new(bot, cmd):
@@ -89,10 +90,14 @@ def trivia(bot, cmd):
         global trivia_handler
         if trivia_handler.game is not None:
             if trivia_handler.game.mode in ['risky', 'hard']:
-                game_time = trivia_handler.game.time
-                m, s = divmod(game_time, 60)
+                m, s = divmod(trivia_handler.game.time, 60)
                 cmd.output('%s %dm %ds left in the current round.' % (FORMAT, m,
                     s))
+            elif trivia_handler.game.mode == 'challenge' \
+                    and trivia_handler.game.stage == 'enter':
+                m, s = divmod(trivia_handler.game.time, 60)
+                cmd.output('%s %dm %ds left to enter the challange.' % (FORMAT,
+                    m, s))
         m, s = divmod(trivia_handler.time_left, 60)
         cmd.output('%s Next round in %dm %ds.' % (FORMAT, m, s))
 
@@ -133,12 +138,37 @@ def trivia(bot, cmd):
     def stats(bot, cmd):
         global trivia_handler
         stats = trivia_handler.get_stats(cmd.user)
-        msg = ['%s Total correct: %d (%d%% success).' % (FORMAT,
-            stats['total_correct'][0], stats['total_correct'][1])]
-        del stats['total_correct']
-        for category, stat in stats:
-            msg.append('%s %s %d (%d%%)' % (FORMAT, category.ljust(10), stat[0],
-                stat[1]))
+        msg = ['%s %s%s %s %s' % (FORMAT, BOLD, 'Category'.ljust(13),
+            'Correct'.ljust(11), '%')]
+
+        # User may want a specific category
+        if not len(cmd.args) == 0:
+            user_category = ' '.join(cmd.args).lower()
+        else:
+            user_category = ''
+
+        # Save total for later, we want to output it last
+        total = stats.pop('Total')
+
+        for category, stat in stats.iteritems():
+            if user_category in category.lower():
+                msg.append('%s %s %s %s' % (FORMAT, category.ljust(16),
+                    str(stat[0]).rjust(4), (str(stat[1]) + '%').rjust(5)))
+
+        if len(msg) == 1:
+            cmd.output('%s No category found for "%s"' % (FORMAT, user_category))
+            return
+
+        if not user_category in 'total':
+            cmd.output(*msg)
+            return
+
+        # Ensure total is last
+        msg.append('%s %s%s %s %s' % (FORMAT, BOLD, 'Total'.ljust(16),
+            str(total[0]).rjust(4),
+            (str(total[1]) + '%').rjust(5)))
+
+        # Output lines to the user
         cmd.output(*msg)
 
     def enter(bot, cmd):
@@ -236,16 +266,17 @@ class TriviaHandler(Thread):
         # Returns dict, category: (num, percent) for all categories
         # and "total_correct": (num, percent)
         stats = {}
-        stats['total_correct'] = (0, 0)
+        total_correct = total_percentage = 0
         for category in self.categories:
             # Set an entry in the dict to the win percent tuple (num, percent)
             stats[category] = self.get_win_percent(user, category)
             # Add tuple to running sums of total_correct (num, percent_sum)
-            stats['total_correct'] += stats[category]
+            total_correct += stats[category][0]
+            total_percentage += stats[category][1]
         # Divide total_correct percent_sum by num of categories,
         # so it is now a total percent of questions correct
-        stats['total_correct'][1] = int(stats['total_correct'][1]
-            / len(self.categories))
+        stats['Total'] = (total_correct, int(total_percentage /
+            len(self.categories)))
         return stats
 
     def load_questions(self):
@@ -351,6 +382,20 @@ class TriviaHandler(Thread):
             self.bot.db.execute('INSERT INTO %s VALUES(?, 0, 0)'
             % table_name, (user.vhost,))
 
+    def add_correct(self, user, category):
+        table_name = self.cat_table(category)
+        data = self.bot.db.fetchone('SELECT * FROM %s WHERE vhost=?'
+            % table_name, (user.vhost,))
+        self.bot.db.execute('UPDATE %s SET correct=? WHERE vhost=?'
+            % table_name, (data['correct'] + 1, user.vhost))
+
+    def add_incorrect(self, user, category):
+        table_name = self.cat_table(category)
+        data = self.bot.db.fetchone('SELECT * FROM %s WHERE vhost=?'
+            % table_name, (user.vhost,))
+        self.bot.db.execute('UPDATE %s SET incorrect=? WHERE vhost=?'
+            % table_name, (data['incorrect'] + 1, user.vhost))
+
     def get_win_percent(self, user, category):
         try:
             table_name = self.cat_table(category)
@@ -413,6 +458,7 @@ class TriviaHandler(Thread):
             else:
                 # Start a regular trivia
                 self.game = Trivia(self, 100)
+            self.game.broadcast()
             # self.game will run in it's own object until it calls
             # end() on both itself and this handler.
             self.time_left = self.interval
@@ -426,13 +472,10 @@ class Trivia(object):
         self.category, self.question, self.answers = self.handler.get_question()
         self.table_name = self.handler.cat_table(self.category)
         self.mode = 'regular'
-        self.broadcast()
 
     def broadcast(self):
-        self.handler.bot.broadcast(
-            '%s <%s: %s> %s (.help trivia)' % (FORMAT, self.category, self.mode,
-            self.question)
-        )
+        self.handler.bot.broadcast('%s <%s: %s> %s (.help trivia)' % (FORMAT,
+            self.category, self.mode, self.question))
 
     def guess(self, user, guess):
         # Make sure the user record for this category exists
@@ -442,21 +485,9 @@ class Trivia(object):
         if guess.lower() in self.answers:
             self.end(user)
             return True
-        self.add_incorrect(user)
+        self.handler.add_incorrect(user, self.category)
         user.message('%s %s' % (FORMAT, random.choice(incorrect_alts)))
         return False
-
-    def add_correct(self, user):
-        data = self.handler.bot.db.fetchone('SELECT * FROM %s WHERE '
-            'vhost=?' % self.table_name, (user.vhost,))
-        self.handler.bot.db.execute('UPDATE %s SET correct=? WHERE '
-            'vhost=?' % self.table_name, (data['correct'] + 1, user.vhost))
-
-    def add_incorrect(self, user):
-        data = self.handler.bot.db.fetchone('SELECT * FROM %s WHERE '
-            'vhost=?' % self.table_name, (user.vhost,))
-        self.handler.bot.db.execute('UPDATE %s SET incorrect=? WHERE '
-            'vhost=?' % self.table_name, (data['incorrect'] + 1, user.vhost))
 
     def end(self, winner):
         self.handler.bot.broadcast(
@@ -464,7 +495,7 @@ class Trivia(object):
                 random.choice(winning_alts), self.reward)
         )
         winner.add_points(self.reward)
-        self.add_correct(winner)
+        self.handler.add_correct(winner, self.category)
         total_correct, percentage = self.handler.get_win_percent(winner,
             self.category)
         winner.message('You now have %d $curr$. You have correctly answered %d'
@@ -480,7 +511,12 @@ class TriviaRisk(Trivia, Thread):
         self.mode = 'risky'
         self.cost = 50
         self.time = 120
+
+    def broadcast(self):
+        super(TriviaRisk, self).broadcast()
         # Broadcast a second message to tell cost and time remaining
+        # Sleep to help allieviate incorrect orderings from threading
+        time.sleep(0.5)
         m, s = divmod(self.time, 60)
         self.handler.bot.broadcast('%s %dm %ds remain. Costs %d $curr$ per '
             'guess' % (FORMAT, m, s, self.cost))
@@ -491,11 +527,11 @@ class TriviaRisk(Trivia, Thread):
                 'question.' % FORMAT)
             return False
         user.add_points(-self.cost)
-        return super(Trivia, self).guess(user, guess)
+        return super(TriviaRisk, self).guess(user, guess)
 
     def end(self, winner):
         if self.time > 0:
-            super(Trivia, self).end(winner)
+            super(TriviaRisk, self).end(winner)
         else:
             self.handler.bot.broadcast('%s Time\'s up! No winner this round.' %
                 FORMAT)
@@ -514,7 +550,12 @@ class TriviaHard(Trivia, Thread):
         self.mode = 'hard'
         self.time = 120
         self.guessers = []
+
+    def broadcast(self):
+        super(TriviaHard, self).broadcast()
         # Broadcast a second message to tell cost and time remaining
+        # Sleep to help allieviate incorrect orderings from threading
+        time.sleep(0.5)
         m, s = divmod(self.time, 60)
         self.handler.bot.broadcast('%s %dm %ds remain. One guess per player.'
             % (FORMAT, m, s))
@@ -522,14 +563,14 @@ class TriviaHard(Trivia, Thread):
     def guess(self, user, guess):
         if not user.vhost in self.guessers:
             self.guessers.append(user.vhost)
-            return super(Trivia, self).guess(user, guess)
+            return super(TriviaHard, self).guess(user, guess)
         else:
             user.message('%s You can only guess once in hard mode.' % FORMAT)
             return False
 
     def end(self, winner):
         if self.time > 0:
-            super(Trivia, self).end(winner)
+            super(TriviaHard, self).end(winner)
         else:
             self.handler.bot.broadcast('%s Time\'s up! No winner this round.' %
                 FORMAT)
@@ -557,6 +598,7 @@ class TriviaChallenge(Thread):
         self.time = 120
         self.ans_time = 15
         self.num_qs = 5
+        self.min_players = 2
         # Dict of user objects: amount correct
         # Using user objects so they can be messaged without
         # recreating them
@@ -565,13 +607,13 @@ class TriviaChallenge(Thread):
         # answering multiple times.
         # Reset after each question
         self.winners = []
-        self.questions = {}
+        self.questions = []
         # Place 5 questions into list of tuples - (category, question, answers)
-        for i in range(1, self.num_qs):
+        for i in range(self.num_qs):
             self.questions.append(self.handler.get_question())
 
         self.mode = 'challenge'
-        self.broadcast()
+        self.start()
 
     def broadcast(self):
         self.handler.bot.broadcast(
@@ -581,7 +623,7 @@ class TriviaChallenge(Thread):
         )
 
     def enter(self, user):
-        if self.stage == 'enter' and not self.user_is_playing(user):
+        if self.stage == 'enter' and self.saved_user(user) is None:
             # Add player to dict
             self.players[user] = 0
             self.handler.bot.broadcast(
@@ -590,7 +632,7 @@ class TriviaChallenge(Thread):
             )
             # Send challenge info to player
             m, s = divmod(self.time, 60)
-            players_left = max(0, 3 - len(self.players))
+            players_left = max(0, self.min_players - len(self.players))
             user.message(
                 '%s The challenge will begin in %dm %ds%s' % (FORMAT, m, s,
                 '.' if players_left == 0 else ' if %d more players enter.'
@@ -613,15 +655,15 @@ class TriviaChallenge(Thread):
         # Private message the question to all players.
         for player in self.players.keys():
             q = self.questions[self.stage]
-            player.message('%s <%s: %s> %s? You have %ds.' % (FORMAT, q[0],
+            player.message('%s <%s: %s> %s You have %ds.' % (FORMAT, q[0],
                 self.mode, q[1], self.ans_time))
 
-    def user_is_playing(self, user):
+    def saved_user(self, user):
         # Return true if user is in the players list
         for player in self.players.keys():
             if player.vhost == user.vhost:
-                return True
-        return False
+                return player
+        return None
 
     def guess(self, user, guess):
         # Make sure user is actually in the game
@@ -632,18 +674,22 @@ class TriviaChallenge(Thread):
             # Make sure players can't answer more than once
             user.message('%s You already got it right, calm down.' % FORMAT)
             return
-        if self.user_is_playing(user):
+
+        player = self.saved_user(user)
+        if player is not None:
             q = self.questions[self.stage]
             self.handler.try_create_record(user, q[0])
             # Check if phrase in q[3] -> answers list
-            if guess in q[3]:
+            if guess in q[2]:
                 # Guess is correct
-                self.players[user.vhost] += 1
+                self.players[player] += 1
                 # Append to winners, so they can't guess again
-                self.winners.append(user.vhost)
+                self.winners.append(player.vhost)
+                self.handler.add_correct(player, q[0])
                 user.message('%s Correct!' % FORMAT)
             else:
                 # Guess is incorrect
+                self.handler.add_incorrect(player, q[0])
                 user.message('%s %s' % (FORMAT, random.choice(incorrect_alts)))
         else:
             user.message('%s You aren\'t in the current trivia challenge.' %
@@ -651,6 +697,11 @@ class TriviaChallenge(Thread):
 
     def end(self):
         # Winner is usually passed in, it is not necessary here
+
+        out = []
+        for player, score in self.players:
+            out.append(FORMAT + ' ' + player.nick + ': ' + score)
+        self.handler.bot.broadcast(*out)
 
         # TODO: Sort by values in players dict, broadcast first and second
         # if neither are tied. If there is a tie in first, split first+second
@@ -665,7 +716,7 @@ class TriviaChallenge(Thread):
             self.time -= 2
             time.sleep(2)
         # After enter stage, check if there is enough players
-        if len(self.players) < 3:
+        if len(self.players) < self.min_players:
             # Break out if not enough players, and use the handler
             # to start the next question
             self.handler.bot.broadcast('%s Not enough players to start the '
@@ -674,7 +725,9 @@ class TriviaChallenge(Thread):
             self.handler.time_left = 2
             return
         # Run each question
-        for i in range(1, self.num_qs):
+        for i in range(self.num_qs):
+            if self.handler.dead:
+                return
             # Reset winners list, otherwise you could only
             # get one point
             self.winners = []
