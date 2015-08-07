@@ -259,6 +259,8 @@ class TriviaHandler(Thread):
                     ' INT, incorrect INT)' % table_name, ())
 
     def cat_table(self, category):
+        # Creates a database table name for the category, removing spaces
+        # and quotation marks
         return 'trivia_' + category.replace(' ', '_').replace('\'', '')
 
     def get_stats(self, user):
