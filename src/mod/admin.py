@@ -203,15 +203,6 @@ def restart(bot, cmd):
         args = ['"%s"' % arg for arg in args]
     os.execv(sys.executable, args)
 
-def say(bot, cmd):
-    """
-    !d Repeat a phrase
-    !a <message...>
-    !r moderator
-    """
-    cmd.set_loud(True)
-    cmd.output(' '.join(cmd.args))
-
 def stop(bot, cmd):
     """
     !d Disconnect and stop $nick$

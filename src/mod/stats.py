@@ -5,6 +5,9 @@ Oracle 3.0 IRC Bot
 trivia2.py
 """
 
+import time
+from errors import ArgumentError
+
 ###################################
 
 def _init(b):
@@ -37,7 +40,7 @@ def score(bot, cmd):
     """!parent-command !r user
     !c top
         !d List top players
-        !a [amount max:20]
+        !a [amount]
         !r user
     !c check
         !d Check a user's score (or your own)
@@ -50,9 +53,11 @@ def score(bot, cmd):
     !c add
         !d Add to user's score
         !a <user> <points>
+        !r administrator
     !c rem
         !d Remove from user's score
         !a <user> <points>
+        !r administrator
     """
     def top(bot, cmd):
         # Set amount to first arg, or 5 if no args
@@ -65,15 +70,15 @@ def score(bot, cmd):
         n = 1
         for user in users:
             if user['points'] < 1:
-                return
-            msg.append('%d. %s (%d)' % (n, user['nick'].ljust(16),
-                user['points']))
+                break
+            msg.append('%d. %s %s' % (n, user['nick'].ljust(20),
+                str(user['points']).rjust(6)))
             n += 1
         cmd.output(*msg)
 
     def check(bot, cmd):
         user = cmd.user
-        if len(cmd.args) > 1:
+        if len(cmd.args) > 0:
             user = bot.get_user(cmd.args[0])
             if user is None:
                 cmd.output('User "%s" not found.' % cmd.args[0])

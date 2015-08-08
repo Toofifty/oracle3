@@ -991,3 +991,399 @@
 [05/08 23:16:27] <Toofifty> last game alvvv
 [05/08 23:16:37] <Alvvv> Ok
 [05/08 23:17:43] <Toofifty> lol
+[07/08 15:51:31] oracle3 joined #oracle3
+[07/08 15:51:36] <Toofifty> .help
+[07/08 15:53:09] <Toofifty> .help stats
+[07/08 15:53:47] <Toofifty> .score
+[07/08 15:54:14] <Toofifty> .commandcount
+[07/08 15:54:47] <Toofifty> .restart
+[07/08 15:54:50] oracle3 joined #oracle3
+[07/08 15:54:51] <Toofifty> .commandcount
+[07/08 15:55:03] <Toofifty> .score
+[07/08 15:55:31] <Toofifty> .reload stats
+[07/08 15:55:32] <Toofifty> .score
+[07/08 15:55:56] <Toofifty> .score top 5
+[07/08 15:56:03] <Toofifty> .score top
+[07/08 15:56:42] <Toofifty> .reload stats
+[07/08 15:56:44] <Toofifty> .score top
+[07/08 15:57:46] <Toofifty> .reload stats
+[07/08 15:57:47] <Toofifty> .score top
+[07/08 15:58:08] <Toofifty> .reload stats
+[07/08 15:58:10] <Toofifty> .score top
+[07/08 15:58:38] <Toofifty> .score add Alvvv 20000
+[07/08 15:59:27] <Toofifty> .reload stats
+[07/08 15:59:28] <Toofifty> .score add Alvvv 20000
+[07/08 15:59:34] <Toofifty> .score top
+[07/08 16:00:15] <Toofifty> .reload stats
+[07/08 16:00:17] <Toofifty> .score top
+[07/08 16:01:10] <Toofifty> .score check alvvv
+[07/08 16:01:31] <Toofifty> .score check Alvvv
+[07/08 16:01:45] <Toofifty> .reload stats
+[07/08 16:01:47] <Toofifty> .score check alvvv
+[07/08 16:02:27] <Toofifty> .score set Alvvv 200
+[07/08 16:02:32] <Toofifty> .score top
+[07/08 16:02:48] <Toofifty> .seen Alvvv
+[07/08 16:03:13] <Toofifty> .reload stats
+[07/08 16:04:01] <Toofifty> .alias add "s" ".say"
+[07/08 16:04:04] <Toofifty> s hello
+[07/08 16:04:04] <Toofifty> .say hello
+[07/08 16:04:07] <Toofifty> shello
+[07/08 16:04:17] <Toofifty> s s s s
+[07/08 16:04:17] <Toofifty> .say s s s
+[07/08 16:04:28] <Toofifty> s
+[07/08 16:04:28] <Toofifty> .say
+[07/08 16:04:28] <Toofifty> s
+[07/08 16:04:28] <Toofifty> .say
+[07/08 16:04:28] <Toofifty> s
+[07/08 16:04:28] <Toofifty> .say
+[07/08 16:04:28] <Toofifty> s
+[07/08 16:04:28] <Toofifty> .say
+[07/08 16:04:48] <Toofifty> .alias list
+[07/08 16:04:54] <Toofifty> .alias rem s
+[07/08 16:06:56] <Toofifty> .commandcount
+[07/08 16:06:59] <Toofifty> .commandcount alvvv
+[07/08 16:07:12] <Toofifty> .help score
+[07/08 16:20:04] <Toofifty> .reload util
+[07/08 16:20:06] <Toofifty> tt
+[07/08 16:20:06] <Toofifty> .trivia time
+[07/08 16:20:20] <Toofifty> .help resolve
+[07/08 16:20:26] <Toofifty> .resolve google.com
+[07/08 16:21:02] <Toofifty> .reload util
+[07/08 16:21:04] <Toofifty> .resolve google.com
+[07/08 16:21:27] <Toofifty> .reload util
+[07/08 16:21:34] <Toofifty> .resolve google.com reddit.com
+[07/08 16:21:45] <Toofifty> .reload util
+[07/08 16:21:49] <Toofifty> .resolve google.com reddit.com
+[07/08 16:22:18] <Toofifty> .reload util
+[07/08 16:22:19] <Toofifty> .resolve google.com reddit.com
+[07/08 16:24:32] <Toofifty> .rt
+[07/08 16:24:35] <Toofifty> rt
+[07/08 16:24:35] <Toofifty> .reload trivia2
+[07/08 16:26:09] <Toofifty> .alias add "s" ".say hello"
+[07/08 16:26:10] <Toofifty> s s
+[07/08 16:26:10] <Toofifty> .say hello s
+[07/08 16:31:53] <Toofifty> .restart
+[07/08 16:31:56] oracle3 joined #oracle3
+[07/08 16:32:15] <Toofifty> .alias glist
+[07/08 16:32:20] <Toofifty> hi
+[07/08 16:32:20] <Toofifty> .say $nick$ is the best
+[07/08 16:32:38] Threefifty joined #oracle3
+[07/08 16:32:43] <Threefifty> hi
+[07/08 16:32:43] <Threefifty> .say $nick$ is the best
+[07/08 16:32:54] <Threefifty> .rank set
+[07/08 16:33:04] <Threefifty> .nms
+[07/08 16:33:04] <Threefifty> .say https://www.reddit.com/r/NoMansSkyTheGame
+[07/08 16:33:22] <Threefifty> .help alias
+[07/08 16:33:54] <Toofifty> .alias rem .nms
+[07/08 16:34:00] <Toofifty> .alias grem .nms
+[07/08 16:34:37] <Toofifty> .alias gadd ".sub" ".say NMS subreddit: https://www.reddit.com/r/NoMansSkyTheGame"
+[07/08 16:35:18] <Toofifty> .sub
+[07/08 16:35:18] <Toofifty> .say NMS subreddit: https://www.reddit.com/r/NoMansSkyTheGame
+[07/08 16:37:06] <Toofifty> .alias rar
+[07/08 16:38:19] <Toofifty> .restart
+[07/08 16:38:22] oracle3 joined #oracle3
+[07/08 16:38:32] <Toofifty> .say hi
+[07/08 16:38:45] <Toofifty> .reload util
+[07/08 16:38:47] <Toofifty> .say hi
+[07/08 16:38:56] <Toofifty> .say $cmd.nick$
+[07/08 16:39:23] <Toofifty> .reload util
+[07/08 16:39:25] <Toofifty> .say $cmd.nick$
+[07/08 16:39:35] <Toofifty> .help util
+[07/08 16:40:10] <Toofifty> .say $cmd$
+[07/08 16:42:19] <Toofifty> .restart
+[07/08 16:42:22] oracle3 joined #oracle3
+[07/08 16:42:36] <Toofifty> .say $cmd.nick$
+[07/08 16:43:08] <Toofifty> .reload util
+[07/08 16:43:10] <Toofifty> .say $cmd.nick$
+[07/08 16:45:37] <Toofifty> .reload util
+[07/08 16:46:36] <Toofifty> .reload util
+[07/08 16:46:38] <Toofifty> .say $cmd.nick$
+[07/08 16:46:49] <Toofifty> .say $cmd.user.points$
+[07/08 16:47:21] <Toofifty> .say $bot$
+[07/08 16:47:25] <Toofifty> .say $bot.config$
+[07/08 16:47:44] <Toofifty> .say $config$
+[07/08 16:48:18] <Toofifty> .reload util
+[07/08 16:48:20] <Toofifty> .say $config$
+[07/08 16:48:48] <Toofifty> .reload util
+[07/08 16:48:49] <Toofifty> .say $config$
+[07/08 16:49:00] <Toofifty> .say $bot.config$
+[07/08 16:49:38] <Toofifty> .alias glist
+[07/08 16:49:42] <Toofifty> .alias rem .sub
+[07/08 16:49:46] <Toofifty> .alias grem .sub
+[07/08 16:50:07] <Toofifty> .alias gadd ".sub" ".say $cmd.nick$: https://www.reddit.com/r/NoMansSkyTheGame"
+[07/08 16:50:10] <Toofifty> .sub
+[07/08 16:50:10] <Toofifty> .say $cmd.nick$: https://www.reddit.com/r/NoMansSkyTheGame
+[07/08 16:50:17] <Threefifty> .sub
+[07/08 16:50:17] <Threefifty> .say $cmd.nick$: https://www.reddit.com/r/NoMansSkyTheGame
+[07/08 16:51:20] <Toofifty> .alias gadd "Hi" ".say Hi $cmd.nick$!"
+[07/08 16:51:23] <Toofifty> Hi
+[07/08 16:51:23] <Toofifty> .say Hi $cmd.nick$!
+[07/08 16:51:34] <Toofifty> .alias glist
+[07/08 16:54:22] <Toofifty> .alias gadd "Oracle, " "."
+[07/08 16:54:26] <Toofifty> Oracle, say hi
+[07/08 16:55:06] <Toofifty> .alias glist
+[07/08 16:55:23] <Toofifty> .alias grem "Oracle, "
+[07/08 16:56:00] <Toofifty> .alias gadd "Oracle," ".\b"
+[07/08 16:56:05] <Toofifty> Oracle, say hi!
+[07/08 16:56:05] <Toofifty> .\b say hi!
+[07/08 16:58:00] <Toofifty> .reload util
+[07/08 16:58:03] <Toofifty> Oracle, say hi!
+[07/08 16:58:03] <Toofifty> .\b say hi!
+[07/08 16:59:59] <Toofifty> .reload util
+[07/08 17:00:05] <Toofifty> .alias grem "Oracle,"
+[07/08 17:00:14] <Toofifty> .alias gadd "o" ".&b"
+[07/08 17:00:18] <Toofifty> osay hi
+[07/08 17:00:27] <Toofifty> o say hi
+[07/08 17:01:14] <Toofifty> .reload util
+[07/08 17:01:16] <Toofifty> o say hi
+[07/08 17:01:16] <Toofifty> .say hi
+[07/08 17:02:07] <Toofifty> .reload util
+[07/08 17:02:13] <Toofifty> .alias grem "o"
+[07/08 17:02:27] <Toofifty> .alias gadd "Oracle," ".&b"
+[07/08 17:02:29] <Toofifty> Oracle, say hi
+[07/08 17:02:29] <Toofifty> .say hi
+[07/08 17:02:59] <Toofifty> .alias gadd "ORACLE!" "$&b"
+[07/08 17:03:03] <Toofifty> ORACLE! SAY HI
+[07/08 17:03:03] <Toofifty> $SAY HI
+[07/08 17:03:45] <Toofifty> Oracle, utc
+[07/08 17:03:45] <Toofifty> .utc
+[07/08 17:04:54] <Toofifty> ORACLE! say hi
+[07/08 17:04:54] <Toofifty> $say hi
+[07/08 17:05:19] <Toofifty> .alias gadd "ATLAS!" "$&b"
+[07/08 17:05:25] <Toofifty> .alias gadd "Atlas," ".&b"
+[07/08 17:05:33] <Toofifty> .alias grem "Oracle,"
+[07/08 17:05:38] <Toofifty> .alias grem "ORACLE!"
+[07/08 17:05:46] <Toofifty> .alias glist
+[07/08 17:05:58] <Toofifty> .alias grem hi
+[07/08 17:06:57] <Toofifty> .trivia repeat
+[07/08 17:07:02] <Toofifty> .a toofifty
+[07/08 17:07:26] <Toofifty> .trivia stats
+[07/08 17:07:45] <Toofifty> tn
+[07/08 17:07:45] <Toofifty> .trivia new
+[07/08 17:07:56] <Toofifty> .alias list
+[07/08 17:07:59] <Toofifty> tn
+[07/08 17:07:59] <Toofifty> .trivia new
+[07/08 17:08:08] <Toofifty> tt
+[07/08 17:08:08] <Toofifty> .trivia time
+[07/08 17:09:05] <Toofifty> rt
+[07/08 17:09:05] <Toofifty> .reload trivia2
+[07/08 17:09:07] <Toofifty> tn
+[07/08 17:09:07] <Toofifty> .trivia new
+[07/08 17:09:14] <Toofifty> tn
+[07/08 17:09:14] <Toofifty> .trivia new
+[07/08 17:09:20] <Toofifty> tt
+[07/08 17:09:20] <Toofifty> .trivia time
+[07/08 17:11:00] <Toofifty> rt
+[07/08 17:11:00] <Toofifty> .reload trivia2
+[07/08 17:11:02] <Toofifty> tn
+[07/08 17:11:02] <Toofifty> .trivia new
+[07/08 17:11:07] <Toofifty> tn
+[07/08 17:11:07] <Toofifty> .trivia new
+[07/08 17:11:15] <Toofifty> .a aglet
+[07/08 17:11:18] <Toofifty> tn
+[07/08 17:11:18] <Toofifty> .trivia new
+[07/08 17:11:34] <Toofifty> tt
+[07/08 17:11:34] <Toofifty> .trivia time
+[07/08 17:11:37] <Toofifty> tn
+[07/08 17:11:37] <Toofifty> .trivia new
+[07/08 17:11:44] <Toofifty> .trivia enter
+[07/08 17:11:47] <Toofifty> tt
+[07/08 17:11:47] <Toofifty> .trivia time
+[07/08 17:11:54] <Threefifty> .trivia enter
+[07/08 17:12:04] <Toofifty> tt
+[07/08 17:12:04] <Toofifty> .trivia time
+[07/08 17:12:52] <Toofifty> tt
+[07/08 17:12:52] <Toofifty> .trivia time
+[07/08 17:13:38] <Toofifty> tt
+[07/08 17:13:38] <Toofifty> .trivia time
+[07/08 17:13:51] <Toofifty> .a ea
+[07/08 17:13:59] <Threefifty> .a toofifty
+[07/08 17:14:03] <Toofifty> .a toofifty
+[07/08 17:14:17] <Toofifty> .a guildford uk
+[07/08 17:14:28] <Toofifty> .a 7
+[07/08 17:14:31] <Threefifty> .a 8
+[07/08 17:14:33] <Threefifty> .a 7
+[07/08 17:14:51] <Toofifty> .a project skyscraper
+[07/08 17:15:15] <Toofifty> rt
+[07/08 17:15:15] <Toofifty> .reload trivia2
+[07/08 17:15:19] <Toofifty> tn
+[07/08 17:15:19] <Toofifty> .trivia new
+[07/08 17:15:23] <Toofifty> tn
+[07/08 17:15:23] <Toofifty> .trivia new
+[07/08 17:16:04] <Toofifty> tt
+[07/08 17:16:04] <Toofifty> .trivia time
+[07/08 17:16:06] <Toofifty> tn
+[07/08 17:16:06] <Toofifty> .trivia new
+[07/08 17:16:11] <Toofifty> tn
+[07/08 17:16:11] <Toofifty> .trivia new
+[07/08 17:16:14] <Toofifty> .trivia stats
+[07/08 17:16:17] <Toofifty> tn
+[07/08 17:16:17] <Toofifty> .trivia new
+[07/08 17:16:24] <Toofifty> tn
+[07/08 17:16:24] <Toofifty> .trivia new
+[07/08 17:16:29] <Threefifty> .trivia stats
+[07/08 17:16:59] <Toofifty> rt
+[07/08 17:16:59] <Toofifty> .reload trivia2
+[07/08 17:17:02] <Threefifty> .trivia stats
+[07/08 17:17:12] <Toofifty> tn
+[07/08 17:17:12] <Toofifty> .trivia new
+[07/08 17:17:17] <Toofifty> tn
+[07/08 17:17:17] <Toofifty> .trivia new
+[07/08 17:18:01] <Toofifty> tnrt
+[07/08 17:18:06] <Toofifty> rt
+[07/08 17:18:06] <Toofifty> .reload trivia2
+[07/08 17:18:09] <Toofifty> tn
+[07/08 17:18:09] <Toofifty> .trivia new
+[07/08 17:18:16] <Toofifty> .trivia enter
+[07/08 17:18:24] <Threefifty> .trivia enter
+[07/08 17:18:30] <Toofifty> tt
+[07/08 17:18:30] <Toofifty> .trivia time
+[07/08 17:19:51] <Toofifty> tt
+[07/08 17:19:51] <Toofifty> .trivia time
+[07/08 17:20:10] <Toofifty> tt
+[07/08 17:20:10] <Toofifty> .trivia time
+[07/08 17:20:16] <Toofifty> .a 7
+[07/08 17:20:20] <Threefifty> .a 7
+[07/08 17:20:21] <Threefifty> .a 6
+[07/08 17:20:31] <Threefifty> .a forty
+[07/08 17:20:47] <Toofifty> .a gavel
+[07/08 17:20:50] <Threefifty> .a gavel
+[07/08 17:21:07] <Toofifty> .a gonorrhea
+[07/08 17:21:18] <Toofifty> .a o
+[07/08 17:21:21] <Toofifty> .a b
+[07/08 17:21:26] <Toofifty> .trivia stats
+[07/08 17:48:46] <Toofifty> rt
+[07/08 17:48:46] <Toofifty> .reload trivia2
+[07/08 17:49:30] <Toofifty> rt
+[07/08 17:49:30] <Toofifty> .reload trivia2
+[07/08 17:49:51] <Toofifty> .restart
+[07/08 17:50:17] oracle3 joined #oracle3
+[07/08 17:50:20] <Toofifty> tn
+[07/08 17:50:20] <Toofifty> .trivia new
+[07/08 17:50:28] <Toofifty> tn
+[07/08 17:50:28] <Toofifty> .trivia new
+[07/08 17:50:36] <Toofifty> tn
+[07/08 17:50:36] <Toofifty> .trivia new
+[07/08 17:50:43] <Toofifty> tn
+[07/08 17:50:43] <Toofifty> .trivia new
+[07/08 17:50:48] <Toofifty> tn
+[07/08 17:50:48] <Toofifty> .trivia new
+[07/08 17:50:55] <Toofifty> tn
+[07/08 17:50:55] <Toofifty> .trivia new
+[07/08 17:51:04] <Toofifty> tn
+[07/08 17:51:04] <Toofifty> .trivia new
+[07/08 17:51:10] <Toofifty> tn
+[07/08 17:51:10] <Toofifty> .trivia new
+[07/08 17:51:20] <Toofifty> tn
+[07/08 17:51:20] <Toofifty> .trivia new
+[07/08 17:51:25] <Toofifty> tn
+[07/08 17:51:25] <Toofifty> .trivia new
+[07/08 17:56:25] <Toofifty> rt
+[07/08 17:56:25] <Toofifty> .reload trivia2
+[07/08 17:56:27] <Toofifty> tn
+[07/08 17:56:27] <Toofifty> .trivia new
+[07/08 17:56:36] <Toofifty> .trivia enter
+[07/08 17:56:42] <Threefifty> .trivia enter
+[07/08 17:56:56] <Toofifty> tt
+[07/08 17:56:56] <Toofifty> .trivia time
+[07/08 17:57:40] <Toofifty> tt
+[07/08 17:57:40] <Toofifty> .trivia time
+[07/08 17:58:11] <Toofifty> tt
+[07/08 17:58:11] <Toofifty> .trivia time
+[07/08 17:59:45] <Toofifty> .a atlas
+[07/08 17:59:48] <Threefifty> .a atlas
+[07/08 18:00:46] <Toofifty> tn
+[07/08 18:00:46] <Toofifty> .trivia new
+[07/08 18:00:52] <Toofifty> tn
+[07/08 18:00:52] <Toofifty> .trivia new
+[07/08 18:00:58] <Toofifty> tn
+[07/08 18:00:58] <Toofifty> .trivia new
+[07/08 18:01:04] <Toofifty> tn
+[07/08 18:01:04] <Toofifty> .trivia new
+[07/08 18:01:11] <Toofifty> tn
+[07/08 18:01:11] <Toofifty> .trivia new
+[07/08 18:01:19] <Toofifty> tn
+[07/08 18:01:19] <Toofifty> .trivia new
+[07/08 18:01:23] <Toofifty> tn
+[07/08 18:01:23] <Toofifty> .trivia new
+[07/08 18:01:28] <Toofifty> tn
+[07/08 18:01:28] <Toofifty> .trivia new
+[07/08 18:01:33] <Toofifty> tn
+[07/08 18:01:33] <Toofifty> .trivia new
+[07/08 18:01:37] <Toofifty> tn
+[07/08 18:01:37] <Toofifty> .trivia new
+[07/08 18:01:44] <Toofifty> tn
+[07/08 18:01:44] <Toofifty> .trivia new
+[07/08 18:01:58] <Toofifty> tn
+[07/08 18:01:58] <Toofifty> .trivia new
+[07/08 18:02:11] <Toofifty> .trivia enter
+[07/08 18:02:14] <Threefifty> .trivia enter
+[07/08 18:04:11] <Toofifty> .a none
+[07/08 18:04:14] <Threefifty> .a yolo
+[07/08 18:04:20] <Toofifty> .a red
+[07/08 18:04:22] <Threefifty> .a red
+[07/08 18:04:49] <Threefifty> .a oxycen
+[07/08 18:09:32] <Toofifty> rt
+[07/08 18:09:32] <Toofifty> .reload trivia2
+[07/08 18:09:32] <Toofifty> tn
+[07/08 18:09:32] <Toofifty> .trivia new
+[07/08 18:10:10] <Toofifty> rt
+[07/08 18:10:10] <Toofifty> .reload trivia2
+[07/08 18:10:17] <Toofifty> tn
+[07/08 18:10:17] <Toofifty> .trivia new
+[07/08 18:10:23] <Toofifty> tn
+[07/08 18:10:23] <Toofifty> .trivia new
+[07/08 18:10:30] <Toofifty> tn
+[07/08 18:10:30] <Toofifty> .trivia new
+[07/08 18:10:32] <Toofifty> tt
+[07/08 18:10:32] <Toofifty> .trivia time
+[07/08 18:10:39] <Toofifty> tn
+[07/08 18:10:39] <Toofifty> .trivia new
+[07/08 18:10:47] <Toofifty> tn
+[07/08 18:10:47] <Toofifty> .trivia new
+[07/08 18:10:54] <Toofifty> tn
+[07/08 18:10:54] <Toofifty> .trivia new
+[07/08 18:10:59] <Toofifty> tn
+[07/08 18:10:59] <Toofifty> .trivia new
+[07/08 18:11:06] <Toofifty> tn
+[07/08 18:11:06] <Toofifty> .trivia new
+[07/08 18:11:13] <Toofifty> .trivia enter
+[07/08 18:11:17] <Threefifty> .trivia enter
+[07/08 18:12:54] <Toofifty> tt
+[07/08 18:12:54] <Toofifty> .trivia time
+[07/08 18:13:22] <Toofifty> .a no
+[07/08 18:13:26] <Toofifty> .trivia skip
+[07/08 18:13:31] <Toofifty> .a forty
+[07/08 18:13:36] <Threefifty> .a forty
+[07/08 18:13:43] <Toofifty> .a gvel
+[07/08 18:13:45] <Toofifty> .a gavel
+[07/08 18:14:15] <Toofifty> .a 7
+[07/08 18:15:35] <Toofifty> tn
+[07/08 18:15:35] <Toofifty> .trivia new
+[07/08 18:15:45] <Toofifty> .a drop bear
+[07/08 18:15:46] <Toofifty> tn
+[07/08 18:15:46] <Toofifty> .trivia new
+[07/08 18:15:53] <Toofifty> tn
+[07/08 18:15:53] <Toofifty> .trivia new
+[07/08 18:15:57] <Toofifty> tn
+[07/08 18:15:57] <Toofifty> .trivia new
+[07/08 18:16:04] <Toofifty> tn
+[07/08 18:16:04] <Toofifty> .trivia new
+[07/08 18:16:09] <Toofifty> tn
+[07/08 18:16:09] <Toofifty> .trivia new
+[07/08 18:16:17] <Toofifty> tn
+[07/08 18:16:17] <Toofifty> .trivia new
+[07/08 18:16:23] <Toofifty> tn
+[07/08 18:16:23] <Toofifty> .trivia new
+[07/08 18:16:30] <Toofifty> tn
+[07/08 18:16:30] <Toofifty> .trivia new
+[07/08 18:16:35] <Toofifty> tn
+[07/08 18:16:35] <Toofifty> .trivia new
+[07/08 18:16:41] <Toofifty> tn
+[07/08 18:16:41] <Toofifty> .trivia new
+[07/08 18:16:50] <Toofifty> tn
+[07/08 18:16:50] <Toofifty> .trivia new
+[07/08 18:17:00] <Toofifty> .a 64
+[07/08 18:18:13] <Threefifty> .score check
+[07/08 18:21:20] <Toofifty> rt
+[07/08 18:21:20] <Toofifty> .reload trivia2

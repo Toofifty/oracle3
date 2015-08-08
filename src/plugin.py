@@ -27,6 +27,10 @@ class PluginLoader(object):
 
             self.load_mod(mod_name, bot)
 
+        # Flag to set true if next command is a global alias
+        # gives _any user_ access to a global alias.
+        self.gl_alias = False
+
     def destroy_mods(self, bot):
         # Run _del on all mods before terminating the bot
         # VERY necessary to remove hanging threads
@@ -97,9 +101,11 @@ class PluginLoader(object):
                 print '>>> Processing command...'
 
                 try:
-                    if cmd.user.rank >= self.get_command_rank(mod, cmd):
+                    if cmd.user.rank >= self.get_command_rank(mod, cmd) \
+                            or self.gl_alias:
                         getattr(mod, str(cmd))(bot, cmd)
                         print '>-> Finished command.'
+                        self.gl_alias = False
                         return
 
                     else:

@@ -5,7 +5,7 @@ Oracle 3.0 IRC Bot
 trivia2.py
 """
 
-import random, os, time, traceback
+import random, os, time, traceback, operator
 from threading import Thread
 from format import PURPLE, RESET, BOLD
 from errors import ArgumentError
@@ -85,6 +85,7 @@ def trivia(bot, cmd):
     def new(bot, cmd):
         global trivia_handler
         trivia_handler.time_left = 2
+        trivia_handler.end()
 
     def time(bot, cmd):
         global trivia_handler
@@ -326,11 +327,15 @@ class TriviaHandler(Thread):
         # Remove a question from the dict when it has been used
         # Avoids repeats until all questions have been asked.
         del self.questions[category][question]
+        # List of all categories that need to be removed
+        remove_categories = []
         for c, q in self.questions.iteritems():
             if len(q) == 0 or q is None:
                 # Remove category completely when all questions have
                 # been asked.
-                del self.questions[c]
+                remove_categories.append(c)
+        for c in remove_categories:
+            del self.questions[c]
         if len(self.questions) == 0:
             # Reload all questions when all categories have been used
             # i.e. all questions have been asked.
@@ -364,6 +369,7 @@ class TriviaHandler(Thread):
     def kill(self):
         # Allows us to kill the thread when restarting/reloading Oracle
         self.dead = True
+        self.end()
 
     def guess(self, user, guess):
         # Check if there is currently a trivia question, passes
@@ -383,6 +389,9 @@ class TriviaHandler(Thread):
         if data is None:
             self.bot.db.execute('INSERT INTO %s VALUES(?, 0, 0)'
             % table_name, (user.vhost,))
+
+    def add_points(self, user, points):
+        user.add_points(points)
 
     def add_correct(self, user, category):
         table_name = self.cat_table(category)
@@ -409,6 +418,8 @@ class TriviaHandler(Thread):
             self.try_create_record(user, category)
             return self.get_win_percent(user, category)
 
+        if data is None:
+            return 0, 0
         if data['correct'] == 0:
             return 0, 0
         if data['incorrect'] == 0:
@@ -425,13 +436,15 @@ class TriviaHandler(Thread):
         self.kicks = []
         self.skips = []
         # Ensure sub threads are killed by setting time to 0
-        self.game.time = 0
-        self.game = None
+        if self.game is not None:
+            self.game.time = 0
+            self.game.dead = True
+            self.game = None
 
     def run(self):
         # Threaded loop
         while not self.dead:
-            while self.time_left > 2:
+            while self.time_left > 0:
                 if self.dead:
                     # Allows us to kill the thread during the countdown
                     return
@@ -474,6 +487,8 @@ class Trivia(object):
         self.category, self.question, self.answers = self.handler.get_question()
         self.table_name = self.handler.cat_table(self.category)
         self.mode = 'regular'
+        self.time = 0
+        self.dead = False
 
     def broadcast(self):
         self.handler.bot.broadcast('%s <%s: %s> %s (.help trivia)' % (FORMAT,
@@ -496,7 +511,7 @@ class Trivia(object):
             '%s %s%s%s %s +%d $curr$' % (FORMAT, BOLD, winner.nick, RESET,
                 random.choice(winning_alts), self.reward)
         )
-        winner.add_points(self.reward)
+        self.handler.add_points(winner, self.reward)
         self.handler.add_correct(winner, self.category)
         total_correct, percentage = self.handler.get_win_percent(winner,
             self.category)
@@ -513,6 +528,7 @@ class TriviaRisk(Trivia, Thread):
         self.mode = 'risky'
         self.cost = 50
         self.time = 120
+        self.start()
 
     def broadcast(self):
         super(TriviaRisk, self).broadcast()
@@ -521,14 +537,14 @@ class TriviaRisk(Trivia, Thread):
         time.sleep(0.5)
         m, s = divmod(self.time, 60)
         self.handler.bot.broadcast('%s %dm %ds remain. Costs %d $curr$ per '
-            'guess' % (FORMAT, m, s, self.cost))
+            'guess.' % (FORMAT, m, s, self.cost))
 
     def guess(self, user, guess):
         if user.points < self.cost:
             user.message('%s You don\'t have enough points to guess for this '
                 'question.' % FORMAT)
             return False
-        user.add_points(-self.cost)
+            self.handler.add_points(user, -self.reward)
         return super(TriviaRisk, self).guess(user, guess)
 
     def end(self, winner):
@@ -542,7 +558,8 @@ class TriviaRisk(Trivia, Thread):
         while self.time > 0:
             self.time -= 2
             time.sleep(2)
-        self.end(None)
+        if not self.dead:
+            self.end(None)
 
 
 class TriviaHard(Trivia, Thread):
@@ -552,6 +569,7 @@ class TriviaHard(Trivia, Thread):
         self.mode = 'hard'
         self.time = 120
         self.guessers = []
+        self.start()
 
     def broadcast(self):
         super(TriviaHard, self).broadcast()
@@ -581,7 +599,8 @@ class TriviaHard(Trivia, Thread):
         while self.time > 0:
             self.time -= 2
             time.sleep(2)
-        self.end(None)
+        if not self.dead:
+            self.end(None)
 
 
 class TriviaChallenge(Thread):
@@ -701,14 +720,65 @@ class TriviaChallenge(Thread):
         # Winner is usually passed in, it is not necessary here
 
         out = []
-        for player, score in self.players:
-            out.append(FORMAT + ' ' + player.nick + ': ' + score)
-        self.handler.bot.broadcast(*out)
+        for player, score in self.players.iteritems():
+            out.append(FORMAT + ' ' + player.nick + ': ' + str(score))
 
-        # TODO: Sort by values in players dict, broadcast first and second
-        # if neither are tied. If there is a tie in first, split first+second
-        # prize between all tied players. If there is a tie in second, split
-        # second prize between all tied players.
+        # Sort the dict by values, place into list of tuples
+        players = sorted(self.players.items(), key=operator.itemgetter(1))
+
+        print players
+
+        first_reward = self.reward
+        second_reward = self.reward / 4
+
+        first_ties = 0
+        second_ties = 0
+
+        # Check for ties
+        for player in players[1:]:
+            if players[0][1] == player[1]:
+                first_ties += 1
+        if first_ties == 0:
+            for player in players[2:]:
+                if players[1][1] == player[1]:
+                    second_ties += 1
+
+        if first_ties == 0:
+            out.append('%s <challenge> First place: %s %d/%d correct. +%d '
+                '$curr$' % (FORMAT, players[0][0].nick, players[0][1],
+                self.num_qs, first_reward))
+            self.handler.add_points(player[0][0], first_reward)
+            players[0][0].message('You now have %d $curr$' %
+                players[0][0].points)
+            if second_ties == 0:
+                out.append('%s <challenge> Second place: %s %d/%d correct. +%d '
+                    '$curr$' % (FORMAT, players[1][0].nick, players[1][1],
+                    self.num_qs, second_reward))
+                self.handler.add_points(player[1][0], second_reward)
+                players[1][0].message('You now have %d $curr$' %
+                    players[1][0].points)
+            else:
+                second_reward = second_reward / (second_ties + 1)
+                nicks = ''
+                for player in players[1:second_ties]:
+                    self.handler.add_points(player[0], second_reward)
+                    player[0].message('You now have %d $curr$' %
+                        player[0].points)
+                    nicks = nicks + '%s, ' % player[0].nick
+                out.append('%s <challenge> Second place was a tie between: %s'
+                    'with %d/%d correct. +%d $curr$ each' % (FORMAT, nicks,
+                    players[0][1], self.num_qs, first_reward))
+        else:
+            first_reward = (first_reward + second_reward) / (first_ties + 1)
+            nicks = ''
+            for player in players[:first_ties]:
+                self.handler.add_points(player[0], first_reward)
+                player[0].message('You now have %d $curr$' % player[0].points)
+                nicks = nicks + '%s, ' % player[0].nick
+            out.append('%s <challenge> First place was a tie between: %swith '
+                '%d/%d correct. +%d $curr$ each' % (FORMAT, nicks,
+                players[0][1], self.num_qs, first_reward))
+        self.handler.bot.broadcast(*out)
         self.handler.end()
 
     def run(self):

@@ -20,7 +20,7 @@ class Oracle(IRC):
 
         self.set_verbose(config.verbose)
 
-        self.token_pattern = re.compile(r'\$(\w*)\$')
+        self.token_pattern = re.compile(r'\$([\w\.]*)\$')
 
         self.config = config
         self.db = Database(config.db)
@@ -58,7 +58,7 @@ class Oracle(IRC):
 
         for match in re.findall(self.token_pattern, message):
             # Haha, no
-            if not 'pass' in match:
+            if not 'pass' in match and not 'conf' in match:
 
                 # Check if the bot or config has the attribute found
                 # Coninue if not found

@@ -5,8 +5,16 @@ Oracle 3.0 IRC Bot
 util.py
 """
 
+import re, traceback, time, random, socket
 from errors import ArgumentError
-import re, traceback, time
+
+try:
+    from sympy import *
+    from sympy.parsing.sympy_parser import parse_expr, eval_expr
+    sympy_active = True
+except:
+    print 'SymPy not found; ignoring'
+    sympy_active = False
 
 ###################################
 
@@ -153,7 +161,70 @@ def alias(bot, cmd):
         traceback.print_exc()
         cmd.output('Sorry, something went wrong. This error has been logged.')
 
-def utc(bot, args):
+def calc(bot, cmd):
+    """
+    !d Calculate high-level maths
+    !a <equation...>
+    !r user
+    """
+    if len(cmd.args) > 0:
+        try:
+            exp = parse_expr(' '.join(cmd.args))
+            try:
+                cmd.output('%s: %d' % (cmd.nick, exp.evalf()))
+            except:
+                cmd.output('%s: %d' % (cmd.nick, exp))
+        except Exception, e:
+            cmd.output('Syntax error: %s' % (str(e)))
+    else:
+        cmd.output('Usage: .calc <equation...>')
+
+def pick(bot, cmd):
+    """
+    !d Pick an option from a list (space separated)
+    !a <options...>
+    !r user
+    """
+    if len(cmd.args) < 2:
+        cmd.output('Usage: .pick <options...>')
+    else:
+        cmd.output('%s: %s' % (cmd.nick, random.choice(cmd.args)))
+
+def resolve(bot, cmd):
+    """
+    !d Resolve domain names/addresses to an IP
+    !a <addresses...>
+    !r user
+    """
+    if len(cmd.args) > 0:
+        msg = []
+        for addr in cmd.args:
+            data = socket.gethostbyname_ex(addr)
+            msg.append('%s: %s' % (addr, data[2]))
+        cmd.output(*msg)
+    else:
+        cmd.output('Usage: .resolve <address>')
+
+def say(bot, cmd):
+    """
+    !d Repeat a phrase
+    !a <message...>
+    !r moderator
+    """
+    msg = ' '.join(cmd.args)
+    for match in re.findall(bot.token_pattern, msg):
+        # Haha, no
+        if not 'pass' in match and not 'conf' in match:
+            try:
+                msg = msg.replace('$%s$' % match, str(eval(match)))
+            except:
+                msg = 'Bad token: $%s$' % match
+                break
+            # Replace the string with the attribute value
+    cmd.set_loud(True)
+    cmd.output(msg)
+
+def utc(bot, cmd):
     """
     !d Get the current time, utc
     !r user
@@ -182,7 +253,19 @@ def _chat(bot, args):
     for alias in g_aliases:
         if message[0] == alias['alias']:
             str_msg = str_msg.replace(alias['alias'], alias['command'], 1)
+            if '&b' in str_msg:
+                index = str_msg.find('&b')
+                str_msg = str_msg[:index] + str_msg[index+3:]
             message = str_msg.split(' ')
-            print '->> Processing command', alias['command']
+            print '->> Processing command', str_msg
+            # Change flag in the plugins object to allow the next
+            # command to go through no matter the user's rank
+            bot.plugins.gl_alias = True
             bot.chat_event(user, channel, message)
             return
+
+def _invite(bot, args):
+    user, channel = args
+
+    print '>>* %s has invited me to %s' % (user.nick, channel)
+    bot.join_channel(channel)

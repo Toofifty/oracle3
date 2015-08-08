@@ -4,5 +4,6 @@ admin
 emotes
 help
 log
-util
+stats
 trivia2
+util
