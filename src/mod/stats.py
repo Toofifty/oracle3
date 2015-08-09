@@ -2,7 +2,7 @@
 """
 Oracle 3.0 IRC Bot
 
-trivia2.py
+stats.py
 """
 
 import time
@@ -121,7 +121,7 @@ def score(bot, cmd):
         if cmd.user.rank > 2:
             cmd.output('Usage: .score <top|check|set|add|rem>')
         else:
-            cmd.output('Usage: .trivia <top|check>')
+            cmd.output('Usage: .score <top|check>')
 
     except Exception:
         traceback.print_exc()
