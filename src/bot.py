@@ -47,6 +47,9 @@ class Oracle(IRC):
         # above attributes
         self.plugins = PluginLoader(self)
 
+        # List of users to avoid re-instantiation for every message
+        self.users = []
+
         # Connect last, plugins may need to do something
         # before connecting to the IRC server
         self.connect()
@@ -274,6 +277,11 @@ class Oracle(IRC):
     def get_user(self, nick_vhost):
         # Gets a user from their nick OR vhost, returns None
         # if no user found in the database
+
+        # Try the list of users first, avoid unneccessary instantiation
+        for user in self.users:
+            if user.nick == nick_vhost or user.vhost == nick_vhost:
+                return user
 
         # Try to find with nick, not case dependent
         rec = self.db.fetchone('SELECT * FROM users WHERE nick = ? '

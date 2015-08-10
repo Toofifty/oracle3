@@ -46,9 +46,10 @@ class User(object):
         self.nick = nick
         self.save()
 
-    def add_points(self, points):
+    def add_points(self, points, save=True):
         self.points += int(points)
-        self.save()
+        if save:
+            self.save()
 
     def set_points(self, points):
         self.points = int(points)

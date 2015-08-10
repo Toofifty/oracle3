@@ -1387,3 +1387,356 @@
 [07/08 18:18:13] <Threefifty> .score check
 [07/08 18:21:20] <Toofifty> rt
 [07/08 18:21:20] <Toofifty> .reload trivia2
+[09/08 14:41:27] oracle3 joined #oracle3
+[09/08 14:41:49] Toofifty joined #oracle3
+[09/08 14:41:57] <Toofifty> .restart
+[09/08 14:42:02] oracle3 joined #oracle3
+[09/08 14:42:16] <Toofifty> .help mail
+[09/08 14:42:22] <Toofifty> .help trivia
+[09/08 14:42:31] <Toofifty> .trivia stats
+[09/08 14:43:05] <Toofifty> .mail send Toofifty Hi! Hello.
+[09/08 14:43:19] <Toofifty> .reload mail
+[09/08 14:43:20] <Toofifty> .mail send Toofifty Hi! Hello.
+[09/08 14:44:07] <Toofifty> .reload mail
+[09/08 14:44:09] <Toofifty> .mail send Toofifty Hi! Hello.
+[09/08 14:44:49] <Toofifty> .reload mail
+[09/08 14:44:55] <Toofifty> .mail send Toofifty Hi! Hello.
+[09/08 14:45:01] <Toofifty> .mail inbox
+[09/08 14:45:20] <Toofifty> .mail read Hi!
+[09/08 14:46:02] <Toofifty> .reload mail
+[09/08 14:46:04] <Toofifty> .mail read Hi!
+[09/08 14:46:44] <Toofifty> .reload mail
+[09/08 14:46:47] <Toofifty> .mail inbox
+[09/08 14:46:53] <Toofifty> .mail read Hi!
+[09/08 14:47:20] <Toofifty> .mail read *
+[09/08 14:47:37] <Toofifty> .mail send Toofifty test1 test etest set set set set setsetsetsets etse tetsetsetest test.
+[09/08 14:47:42] <Toofifty> .mail inbox
+[09/08 14:47:49] <Toofifty> .mail inbox
+[09/08 14:48:37] <Toofifty> .reload mail
+[09/08 14:48:39] <Toofifty> .mail inbox
+[09/08 14:49:38] <Toofifty> .mail read *
+[09/08 14:49:48] <Toofifty> .mail inbox i
+[09/08 14:49:53] <Toofifty> .mail inbox h
+[09/08 14:49:59] <Toofifty> .mail inbox H
+[09/08 14:50:09] <Toofifty> .mail inbox est
+[09/08 14:53:40] <Toofifty> .a forty
+[09/08 14:55:12] <Toofifty> .reload mail
+[09/08 14:55:20] Toofifty joined #oracle3
+[09/08 14:55:37] <Toofifty> .help mail
+[09/08 14:56:42] <Toofifty> .mail send secret_online hi this message will self destruct in 3... 2... 1...
+[09/08 14:57:13] secret_online joined #oracle3
+[09/08 14:57:20] <secret_online> i have mail!
+[09/08 14:57:22] Chazbears joined #oracle3
+[09/08 14:57:24] <Toofifty> \o/
+[09/08 14:57:27] <secret_online> .help mail
+[09/08 14:57:41] <secret_online> .mail inbox
+[09/08 14:58:00] <secret_online> .mail send Toofifty woo! hi too!
+[09/08 14:58:10] <secret_online> :P
+[09/08 14:58:18] <Toofifty> do .mail read hi
+[09/08 14:58:24] <Toofifty> or .mail read *
+[09/08 14:58:26] <secret_online> .mail read hi
+[09/08 14:58:34] <Toofifty> inbox just shows titles atm
+[09/08 14:58:35] <secret_online> ACTION explodes
+[09/08 14:58:42] <secret_online> ahh, right
+[09/08 14:58:46] <Toofifty> .alias glist
+[09/08 14:58:56] <Toofifty> Hi
+[09/08 14:58:56] <Toofifty> .say Hi $cmd.nick$!
+[09/08 14:59:06] <secret_online> hi
+[09/08 14:59:08] <Chazbears> What is this :3
+[09/08 14:59:11] <secret_online> Hi
+[09/08 14:59:11] <secret_online> .say Hi $cmd.nick$!
+[09/08 14:59:26] <secret_online> this is a channel for Too to test out his bot
+[09/08 14:59:27] <Toofifty> new version of Atlas Chazbears
+[09/08 14:59:33] <Chazbears> Oh ok
+[09/08 14:59:43] <Chazbears> Hi
+[09/08 14:59:43] <Chazbears> .say Hi $cmd.nick$!
+[09/08 14:59:44] <Toofifty> .trivia stats
+[09/08 14:59:45] <secret_online> find problems before it's used properly on the channel
+[09/08 14:59:50] <Chazbears> Okai
+[09/08 15:00:02] <Toofifty> .score top
+[09/08 15:00:03] <Chazbears> .help
+[09/08 15:00:33] <Chazbears> .help all
+[09/08 15:00:33] <Toofifty> .trivia ks
+[09/08 15:00:36] secret_bot joined #oracle3
+[09/08 15:00:39] <secret_online> bot wars!
+[09/08 15:00:41] <secret_online> :P
+[09/08 15:00:59] <Chazbears> .a sentinals
+[09/08 15:01:06] <secret_online> .a sentinels
+[09/08 15:01:07] <Chazbears> Spelled wrong?
+[09/08 15:01:11] <Chazbears> Damn
+[09/08 15:01:12] <secret_online> yep
+[09/08 15:01:13] <Toofifty> it now tracks number of correct/incorrect answers
+[09/08 15:01:19] <secret_online> i see that
+[09/08 15:01:19] <Toofifty> .trivia stats
+[09/08 15:01:20] <secret_online> awesome
+[09/08 15:01:34] <secret_online> i have a 100% success rate :P
+[09/08 15:01:35] <Chazbears> Does it do automatic Trivia?
+[09/08 15:01:40] <Toofifty> yeah
+[09/08 15:01:41] <secret_online> .trivia kickstart
+[09/08 15:01:42] <Toofifty> .trivia time
+[09/08 15:01:44] <secret_online> ~ks
+[09/08 15:01:45] <secret_bot> .trivia kickstart
+[09/08 15:01:53] <secret_online> :(
+[09/08 15:01:54] <Toofifty> it's trivia ks ;)
+[09/08 15:01:58] <Chazbears> Are the questions preset?
+[09/08 15:02:06] <secret_online> shorter, i like it
+[09/08 15:02:09] <secret_online> .trivia ks
+[09/08 15:02:09] <Toofifty> random from a few lists
+[09/08 15:02:16] <secret_online> much nicer
+[09/08 15:02:22] <secret_online> munites and seconds
+[09/08 15:02:29] <Toofifty> and have a play around with aliases
+[09/08 15:02:31] <secret_online> ratehr than "5324634452" seconds
+[09/08 15:02:32] <Toofifty> .help alias
+[09/08 15:02:41] <secret_online> .help alias
+[09/08 15:02:57] <Toofifty> can add an alias for whatever you want
+[09/08 15:03:08] <secret_online> .alias add l lenny
+[09/08 15:03:14] <secret_online> .alias add l .lenny
+[09/08 15:03:16] <secret_online> .l
+[09/08 15:03:22] <Toofifty> just l
+[09/08 15:03:24] <secret_online> l
+[09/08 15:03:24] <secret_online> .lenny
+[09/08 15:03:27] <secret_online> nice
+[09/08 15:03:27] <Chazbears> .help alias
+[09/08 15:03:37] <secret_online> l l l l ll l l l l l ll l l l l
+[09/08 15:03:37] <secret_online> .lenny l l l ll l l l l l ll l l l l
+[09/08 15:03:41] <secret_online> :(
+[09/08 15:03:43] <secret_online> :P
+[09/08 15:03:56] <Toofifty> my net's screwing up, might go down in a min to be fixed
+[09/08 15:04:03] <Toofifty> separate commands with ;
+[09/08 15:04:08] <Toofifty> .lenny
+[09/08 15:04:08] <Toofifty> .lenny
+[09/08 15:04:23] <Chazbears> .lenny : .lenny
+[09/08 15:04:28] <secret_online> l;l;l;l;l;l;l;l;l;l;l;l;l;l;l;l;l;l;l;l
+[09/08 15:04:40] <secret_online> l
+[09/08 15:04:40] <secret_online> .lenny
+[09/08 15:04:40] <secret_online> l
+[09/08 15:04:40] <secret_online> .lenny
+[09/08 15:04:40] <secret_online> l
+[09/08 15:04:40] <secret_online> .lenny
+[09/08 15:04:40] <secret_online> l
+[09/08 15:04:40] <secret_online> .lenny
+[09/08 15:04:40] <secret_online> l
+[09/08 15:04:40] <secret_online> .lenny
+[09/08 15:04:40] <secret_online> l
+[09/08 15:04:40] <secret_online> .lenny
+[09/08 15:04:40] <secret_online> l
+[09/08 15:04:40] <secret_online> .lenny
+[09/08 15:04:40] <secret_online> l
+[09/08 15:04:40] <secret_online> .lenny
+[09/08 15:04:40] <secret_online> l
+[09/08 15:04:40] <secret_online> .lenny
+[09/08 15:04:40] <secret_online> l
+[09/08 15:04:40] <secret_online> .lenny
+[09/08 15:04:40] <secret_online> l
+[09/08 15:04:40] <secret_online> .lenny
+[09/08 15:04:43] <secret_online> :D
+[09/08 15:04:45] <Chazbears> Lol
+[09/08 15:04:48] <secret_online> :P
+[09/08 15:04:48] <Toofifty> haha
+[09/08 15:04:56] <Toofifty> Atlas, lenny
+[09/08 15:04:56] <Toofifty> .lenny
+[09/08 15:05:13] <Toofifty> Atlas, alias glist
+[09/08 15:05:13] <Toofifty> .alias glist
+[09/08 15:05:24] <Chazbears> .lenny : .lenny
+[09/08 15:05:31] <Chazbears> .a Monday
+[09/08 15:05:37] <Toofifty> hahahaha
+[09/08 15:05:37] <Chazbears> Damn
+[09/08 15:05:40] <secret_online> lol
+[09/08 15:05:52] <Toofifty> .trivia skip
+[09/08 18:57:16] oracle3 joined #oracle3
+[09/08 18:57:36] <Toofifty> .mail inbox
+[09/08 18:57:42] <Toofifty> .mail read woo
+[09/08 19:17:29] <Toofifty> .score check
+[09/08 19:17:31] <Toofifty> .a 123
+[09/08 19:17:33] <Toofifty> .score check
+[09/08 19:18:34] <Toofifty> rt
+[09/08 19:18:34] <Toofifty> .reload trivia2
+[09/08 19:18:39] <Toofifty> .tn
+[09/08 19:18:40] <Toofifty> tn
+[09/08 19:18:40] <Toofifty> .trivia new
+[09/08 19:18:47] <Toofifty> .a 3
+[09/08 19:18:48] <Toofifty> .a 7
+[09/08 19:19:30] <Toofifty> tt
+[09/08 19:19:30] <Toofifty> .trivia time
+[09/08 19:20:50] <Toofifty> .stop
+[09/08 19:47:12] oracle3 joined #oracle3
+[09/08 19:59:29] <Toofifty> .calc 29999-26395
+[09/08 19:59:54] Alvv joined #oracle3
+[09/08 20:02:33] <Toofifty> .reload util
+[09/08 20:02:44] <Toofifty> .calc 111111
+[09/08 20:03:01] <Toofifty> .mail inbox
+[09/08 20:03:54] <Alvv> oooh the mail :D
+[09/08 20:03:56] <Alvv> .mail
+[09/08 20:04:00] <Alvv> .mail check
+[09/08 20:04:09] <Toofifty> .reload mail
+[09/08 20:04:18] <Toofifty> .reload mail
+[09/08 20:04:24] <Toofifty> .mail inbox
+[09/08 20:04:42] <Toofifty> .reload mail
+[09/08 20:04:44] <Toofifty> .mail inbox
+[09/08 20:04:51] <Toofifty> .mail read test1
+[09/08 20:04:54] <Toofifty> .mail inbox
+[09/08 20:07:24] <Toofifty> .trivia enter
+[09/08 20:07:29] <Toofifty> Alvv^
+[09/08 20:08:05] <Toofifty> tt
+[09/08 20:08:05] <Toofifty> .trivia time
+[09/08 20:09:45] <Alvv> oh sorry
+[09/08 20:09:48] <Alvv> .trivia enter
+[09/08 20:09:51] <Alvv> oh
+[09/08 20:13:43] <Toofifty> lol
+[09/08 20:13:50] <Toofifty> .reload mail
+[09/08 20:13:52] <Toofifty> .mail inbox
+[09/08 20:13:57] <Toofifty> .mail delete Hi!
+[09/08 20:14:01] <Toofifty> .mail inbox
+[09/08 20:14:06] <Toofifty> .mail delete *
+[09/08 20:14:10] <Toofifty> .mail inbox
+[09/08 20:14:24] <Toofifty> Atlas, lenny
+[09/08 20:14:24] <Toofifty> .lenny
+[09/08 20:14:50] <Toofifty> ks
+[09/08 20:14:50] <Toofifty> .trivia ks
+[09/08 20:15:03] <Toofifty> .a wrong answer
+[09/08 20:15:07] <Toofifty> .score check
+[09/08 20:15:10] <Toofifty> .a wrong answer
+[09/08 20:15:12] <Toofifty> .score check
+[09/08 20:15:27] <Toofifty> err
+[09/08 20:15:42] <Toofifty> rt
+[09/08 20:15:42] <Toofifty> .reload trivia2
+[09/08 20:15:48] <Toofifty> .alias rem rt
+[09/08 20:15:59] <Toofifty> .alias add "rt" ".reload trivia"
+[09/08 20:16:00] <Toofifty> rt
+[09/08 20:16:00] <Toofifty> .reload trivia
+[09/08 20:16:09] <Toofifty> tn
+[09/08 20:16:09] <Toofifty> .trivia new
+[09/08 20:17:26] <Toofifty> tn
+[09/08 20:17:26] <Toofifty> .trivia new
+[09/08 20:17:34] <Toofifty> tn
+[09/08 20:17:34] <Toofifty> .trivia new
+[09/08 20:18:04] <Toofifty> .a wrong answer
+[09/08 20:18:07] <Toofifty> .score check
+[09/08 20:25:34] Alvv joined #oracle3
+[09/08 20:32:35] <Alvv> .trivia enter
+[09/08 20:32:46] <Toofifty> .trivia enter
+[09/08 20:34:53] <Alvv> .a hello games
+[09/08 20:34:58] <Alvv> .a kraddakk
+[09/08 20:35:10] <Alvv> woops I always miss things
+[09/08 20:37:36] <Toofifty> hah i was playing rocket league
+[09/08 20:40:37] <Alvv> :D
+[09/08 20:47:42] <Alvv> .a Sean Murray
+[09/08 20:52:08] <Alvv> .a Project Skyscraper
+[09/08 20:52:23] <Alvv> Now that I see my rate of success I don't want to randomly guess
+[09/08 20:52:25] <Alvv> that's good
+[09/08 20:52:29] <Alvv> less spam
+[09/08 21:03:47] <Alvv> .trivia enter
+[09/08 21:04:17] <Alvv> .a 4
+[09/08 21:04:22] <Alvv> .a 6
+[09/08 21:04:26] <Alvv> aw
+[09/08 21:15:17] <Alvv> .a sentinels
+[09/08 21:24:40] <Alvv> .trivia enter
+[09/08 21:27:14] <Alvv> .a Guildford
+[09/08 21:27:19] <Alvv> huh
+[09/08 21:37:08] <Toofifty> .trivia enter
+[09/08 21:37:18] <Toofifty> Alvv
+[09/08 21:37:37] <Alvv> .trivia enter
+[09/08 21:37:41] <Toofifty> wait
+[09/08 21:37:47] <Toofifty> sorry forgot to reload it
+[09/08 21:37:48] <Toofifty> rt
+[09/08 21:37:48] <Toofifty> .reload trivia
+[09/08 21:37:50] <Toofifty> tn
+[09/08 21:37:50] <Toofifty> .trivia new
+[09/08 21:37:57] <Toofifty> tn
+[09/08 21:37:57] <Toofifty> .trivia new
+[09/08 21:38:03] <Toofifty> tn
+[09/08 21:38:03] <Toofifty> .trivia new
+[09/08 21:38:14] <Toofifty> tn
+[09/08 21:38:14] <Toofifty> .trivia new
+[09/08 21:38:21] <Toofifty> tn
+[09/08 21:38:21] <Toofifty> .trivia new
+[09/08 21:38:31] <Toofifty> tn
+[09/08 21:38:31] <Toofifty> .trivia new
+[09/08 21:38:36] <Alvv> tell me when
+[09/08 21:38:37] <Toofifty> tn
+[09/08 21:38:37] <Toofifty> .trivia new
+[09/08 21:38:43] <Toofifty> now
+[09/08 21:38:45] <Toofifty> .trivia enter
+[09/08 21:38:55] <Toofifty> Alvv
+[09/08 21:38:59] <Alvv> .trivia enter
+[09/08 21:39:28] Threefifty joined #oracle3
+[09/08 21:39:32] <Threefifty> .trivia enter
+[09/08 21:39:50] <Toofifty> .trivia time
+[09/08 21:40:59] <Alvv> .a gore
+[09/08 21:41:04] <Alvv> oh crap
+[09/08 21:41:05] <Alvv> wrong one
+[09/08 21:41:23] <Alvv> .a june 2014
+[09/08 21:41:36] <Alvv> .a hellogames-sean
+[09/08 21:41:52] <Alvv> .a oxycen
+[09/08 21:42:36] <Toofifty> having sql/threading problems :v
+[09/08 21:43:52] <Alvv> :c
+[09/08 21:49:18] <Alvv> .a red
+[09/08 21:55:38] <Toofifty> .seen secret_online
+[09/08 21:59:23] <Toofifty> .reload stats trivia
+[09/08 21:59:36] <Toofifty> tn
+[09/08 21:59:36] <Toofifty> .trivia new
+[09/08 21:59:45] <Toofifty> .trivia enter
+[09/08 21:59:50] <Toofifty> Alvv ^
+[09/08 21:59:56] <Threefifty> .trivia enter
+[09/08 22:00:04] <Toofifty> might work this time
+[09/08 22:00:26] <Alvv> .trivia enter
+[09/08 22:00:35] <Toofifty> tt
+[09/08 22:00:35] <Toofifty> .trivia time
+[09/08 22:03:16] <Toofifty> derp
+[09/08 22:04:18] <Toofifty> rt
+[09/08 22:04:18] <Toofifty> .reload trivia
+[09/08 22:04:20] <Toofifty> tn
+[09/08 22:04:20] <Toofifty> .trivia new
+[09/08 22:04:26] <Toofifty> tn
+[09/08 22:04:26] <Toofifty> .trivia new
+[09/08 22:04:33] <Toofifty> tn
+[09/08 22:04:33] <Toofifty> .trivia new
+[09/08 22:04:43] <Toofifty> .trivia enter
+[09/08 22:04:47] <Threefifty> .trivia enter
+[09/08 22:08:08] <Toofifty> .restart
+[09/08 22:08:13] oracle3 joined #oracle3
+[09/08 22:08:17] <Toofifty> tn
+[09/08 22:08:17] <Toofifty> .trivia new
+[09/08 22:08:27] <Toofifty> .a drop bear
+[09/08 22:08:28] <Toofifty> tn
+[09/08 22:08:28] <Toofifty> .trivia new
+[09/08 22:08:35] <Toofifty> .score top
+[09/08 22:08:47] <Toofifty> .score top 10
+[09/08 22:08:55] <Toofifty> tn
+[09/08 22:08:55] <Toofifty> .trivia new
+[09/08 22:09:04] <Toofifty> .trivia enter
+[09/08 22:09:10] <Threefifty> .trivia enter
+[09/08 22:11:07] <Toofifty> .a atlas
+[09/08 22:11:11] <Threefifty> .a atlas
+[09/08 22:11:35] <Toofifty> .a toofifty
+[09/08 22:11:51] <Toofifty> .a aglet
+[09/08 22:12:04] <Toofifty> .a red
+[09/08 22:13:30] <Toofifty> rt
+[09/08 22:13:30] <Toofifty> .reload trivia
+[09/08 22:13:32] <Toofifty> tn
+[09/08 22:13:32] <Toofifty> .trivia new
+[09/08 22:13:38] <Toofifty> .trivia enter
+[09/08 22:13:42] <Threefifty> .trivia eneter
+[09/08 22:13:45] <Threefifty> .trivia enter
+[09/08 22:13:53] <Toofifty> tt
+[09/08 22:13:53] <Toofifty> .trivia time
+[09/08 22:13:58] <Toofifty> .a 7
+[09/08 22:14:13] <Toofifty> .a aglet
+[09/08 22:14:16] <Threefifty> .a aglet
+[09/08 22:14:51] <Toofifty> .a debutante
+[09/08 22:14:55] <Toofifty> .a super moon
+[09/08 22:15:21] <Toofifty> lmao
+[09/08 22:15:22] <Toofifty> fuck
+[09/08 22:18:06] <Toofifty> .score check
+[09/08 22:18:32] <Toofifty> .score add Toofifty 1
+[09/08 22:18:34] <Toofifty> .score check
+[09/08 22:22:41] <Toofifty> .restart
+[09/08 22:22:57] oracle3 joined #oracle3
+[09/08 22:23:58] oracle3 joined #oracle3
+[09/08 22:24:03] <Toofifty> tn
+[09/08 22:24:03] <Toofifty> .trivia new
+[09/08 22:24:11] <Toofifty> .trivia enter
+[09/08 22:24:16] <Threefifty> .trivia enter
+[09/08 22:24:32] <Toofifty> .a 7
+[09/08 22:24:34] <Threefifty> .a 7
+[09/08 22:37:49] <Toofifty> .stop

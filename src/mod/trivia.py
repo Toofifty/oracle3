@@ -461,7 +461,7 @@ class TriviaHandler(Thread):
                         self.time_left = 0
                 time.sleep(2)
             rng = random.random()
-            if rng > 0.75:
+            if rng > 0.01:
                 # Start a challenge trivia
                 self.game = TriviaChallenge(self, 500)
             elif rng > 0.5:
@@ -544,7 +544,7 @@ class TriviaRisk(Trivia, Thread):
             user.message('%s You don\'t have enough points to guess for this '
                 'question.' % FORMAT)
             return False
-            self.handler.add_points(user, -self.reward)
+        self.handler.add_points(user, -self.cost)
         return super(TriviaRisk, self).guess(user, guess)
 
     def end(self, winner):
@@ -616,7 +616,7 @@ class TriviaChallenge(Thread):
         # Time is set to the initial time of the enter stage (2 mins)
         # it is used afterwards to time each question, so it can return
         # a value to .trivia time
-        self.time = 120
+        self.time = 20
         self.ans_time = 15
         self.num_qs = 5
         self.min_players = 2
@@ -724,7 +724,8 @@ class TriviaChallenge(Thread):
             out.append(FORMAT + ' ' + player.nick + ': ' + str(score))
 
         # Sort the dict by values, place into list of tuples
-        players = sorted(self.players.items(), key=operator.itemgetter(1))
+        players = sorted(self.players.items(), key=operator.itemgetter(1),
+            reverse=True)
 
         print players
 
@@ -744,24 +745,27 @@ class TriviaChallenge(Thread):
                     second_ties += 1
 
         if first_ties == 0:
-            out.append('%s <challenge> First place: %s %d/%d correct. +%d '
+            out.append('%s <challenge> First place: %s, %d/%d correct. +%d '
                 '$curr$' % (FORMAT, players[0][0].nick, players[0][1],
                 self.num_qs, first_reward))
-            self.handler.add_points(player[0][0], first_reward)
+            # Use the thread safe version of add_points (doesn't
+            # save instantly). Easiest way to not get a complaint
+            # about SQLite and threads.
+            players[0][0].add_points(first_reward, False)
             players[0][0].message('You now have %d $curr$' %
                 players[0][0].points)
             if second_ties == 0:
-                out.append('%s <challenge> Second place: %s %d/%d correct. +%d '
-                    '$curr$' % (FORMAT, players[1][0].nick, players[1][1],
+                out.append('%s <challenge> Second place: %s, %d/%d correct. +%d'
+                    ' $curr$' % (FORMAT, players[1][0].nick, players[1][1],
                     self.num_qs, second_reward))
-                self.handler.add_points(player[1][0], second_reward)
+                players[1][0].add_points(second_reward, False)
                 players[1][0].message('You now have %d $curr$' %
                     players[1][0].points)
             else:
                 second_reward = second_reward / (second_ties + 1)
                 nicks = ''
                 for player in players[1:second_ties]:
-                    self.handler.add_points(player[0], second_reward)
+                    player[0].add_points(second_reward, False)
                     player[0].message('You now have %d $curr$' %
                         player[0].points)
                     nicks = nicks + '%s, ' % player[0].nick
@@ -772,7 +776,7 @@ class TriviaChallenge(Thread):
             first_reward = (first_reward + second_reward) / (first_ties + 1)
             nicks = ''
             for player in players[:first_ties]:
-                self.handler.add_points(player[0], first_reward)
+                player[0].add_points(first_reward, False)
                 player[0].message('You now have %d $curr$' % player[0].points)
                 nicks = nicks + '%s, ' % player[0].nick
             out.append('%s <challenge> First place was a tie between: %swith '

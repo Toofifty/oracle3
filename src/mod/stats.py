@@ -146,5 +146,5 @@ def seen(bot, cmd):
         dm, ds = divmod(diff, 60)
         dh, dm = divmod(dm, 60)
         dd, dh = divmod(dh, 24)
-        cmd.output('%s was last seen at %s (%d days, %d hours ago)' %
+        cmd.output('%s was last seen on %s (%d days, %d hours ago)' %
             (user.nick, seen, dd, dh))

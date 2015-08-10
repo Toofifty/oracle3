@@ -5,8 +5,9 @@ Oracle 3.0 IRC Bot
 mail.py
 """
 
-import time
+import time, traceback
 from errors import ArgumentError
+from format import BOLD, RESET
 
 ###################################
 
@@ -16,8 +17,8 @@ def _init(b):
     # Create mail table in the database
     if not b.db.table_exists('mail'):
         print '... Creating mail table'
-        self.bot.db.execute('CREATE TABLE mail(sent INT, read BOOLEAN, '
-            'sender TEXT, receiver TEXT, title TEXT, contents TEXT)', ())
+        b.db.execute('CREATE TABLE mail(sent INT, read BOOLEAN, sender TEXT, '
+            'receiver TEXT, title TEXT, contents TEXT)', ())
 
 def _del(b):
     print 'vvv %s unloaded' % __name__
@@ -38,7 +39,7 @@ def mail(bot, cmd):
         !d Send mail to a user
         !r user
         !a <nick> <title> <message...>
-    !c del
+    !c delete
         !d Delete a piece of mail from your inbox
         !r user
         !a <mail names... or *>
@@ -56,20 +57,23 @@ def mail(bot, cmd):
                 if filt in mail['title']:
                     sent = time.asctime(time.gmtime(mail['sent']))
                     diff = time.time() - mail['sent']
-                    dh, dm = divmod(diff, 360)
+                    dm, ds = divmod(diff, 60)
+                    dh, dm = divmod(dm, 60)
                     dd, dh = divmod(dh, 24)
                     diff_str = ''
                     if dd > 0:
                         diff_str = '%d day%s ago' % (dd, 's' if dd > 1 else '')
                     elif dh > 0:
-                        diff_str = '%d hour%s ago' % (dh, 's' if dd > 1 else '')
+                        diff_str = '%d hour%s ago' % (dh, 's' if dh > 1 else '')
                     elif dm > 0:
-                        diff_str = '%d minute%s ago' % (dm, 's' if dd > 1
+                        diff_str = '%d minute%s ago' % (dm, 's' if dm > 1
                             else '')
+                    else:
+                        diff_str = 'less than a minute ago'
                     # Change the sender's vhost to their nick
                     sender = bot.get_user(mail['sender']).nick
-                    msg.append('%s (%s) %s: %s' % (sent, diff_str, sender,
-                        mail['title']))
+                    msg.append('%s%s (%s) %s: %s' % (BOLD if not mail['read']
+                        else '', sent, diff_str, sender, mail['title']))
             cmd.output(*msg)
 
     def read(bot, cmd):
@@ -94,16 +98,22 @@ def mail(bot, cmd):
                 return False
 
             msg = []
+            read = []
             for mail in inbox:
                 if matches(cmd.args, mail['title']):
                     sent = time.asctime(time.gmtime(mail['sent']))
                     diff = time.time() - mail['sent']
-                    dh, dm = divmod(diff, 360)
+                    dm, ds = divmod(diff, 60)
+                    dh, dm = divmod(dm, 60)
                     dd, dh = divmod(dh, 24)
                     sender = bot.get_user(mail['sender']).nick
-                    msg.append('%s at %s (%dd %dh %02dm ago): %s' % (sender,
-                        sent, dd, dh, dm, mail['content']))
+                    msg.append('%s on %s (%dd %dh %02dm ago): %s' % (sender,
+                        sent, dd, dh, dm, mail['contents']))
+                    read.append(mail)
             cmd.output(*msg)
+            for mail in read:
+                bot.db.execute('UPDATE mail SET read=? WHERE sent=? AND '
+                    'title=?', (1, mail['sent'], mail['title']))
 
     def send(bot, cmd):
         if len(cmd.args) < 3:
@@ -114,9 +124,28 @@ def mail(bot, cmd):
                 cmd.output('User %s not found.' % cmd.args[0])
             else:
                 bot.db.execute('INSERT INTO mail VALUES (?, ?, ?, ?, ?, ?)',
-                    (time.time(), False, cmd.user.vhost, recip.vhost,
-                    cmd.args[1], cmd.args[2:]))
+                    (time.time(), 0, cmd.user.vhost, recip.vhost,
+                    cmd.args[1], ' '.join(cmd.args[2:])))
                 cmd.output('Mail sent.')
+
+    def delete(bot, cmd):
+        if len(cmd.args) == 0:
+            cmd.output('Usage: .mail delete <mail or *>')
+        elif cmd.args[0] == '*':
+            bot.db.execute('DELETE FROM mail WHERE receiver=?',
+                (cmd.user.vhost,))
+            cmd.output('Deleted all mail.')
+            return
+        else:
+            matching = bot.db.fetchall('SELECT * FROM mail WHERE title = ? '
+                'AND receiver = ?', (cmd.args[0], cmd.user.vhost))
+
+            if len(matching) > 0:
+                bot.db.execute('DELETE FROM mail WHERE title = ?  AND '
+                    'receiver = ?', (cmd.args[0], cmd.user.vhost))
+                cmd.output('Mail deleted.')
+            else:
+                cmd.output('No mail found for "%s".' % cmd.args[0])
 
     try:
         if len(cmd.args) == 0:
@@ -132,3 +161,10 @@ def mail(bot, cmd):
     except Exception:
         traceback.print_exc()
         cmd.output('Sorry, something went wrong. This error has been logged.')
+
+def _join(bot, args):
+    user, channel = args
+    inbox = bot.db.fetchall('SELECT * FROM mail WHERE receiver=? AND read=0',
+        (user.vhost,))
+    if inbox is not None and len(inbox) > 0:
+        user.message('You have mail! (.help mail)')

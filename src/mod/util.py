@@ -13,7 +13,7 @@ try:
     from sympy.parsing.sympy_parser import parse_expr, eval_expr
     sympy_active = True
 except:
-    print 'SymPy not found; ignoring'
+    print '... SymPy not found; ignoring'
     sympy_active = False
 
 ###################################
@@ -167,6 +167,9 @@ def calc(bot, cmd):
     !a <equation...>
     !r user
     """
+    if not sympy_active:
+        cmd.output('Sorry, this command is disabled.')
+        return
     if len(cmd.args) > 0:
         try:
             exp = parse_expr(' '.join(cmd.args))
