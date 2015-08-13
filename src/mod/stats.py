@@ -66,7 +66,8 @@ def score(bot, cmd):
         # Get the first _am_ of users
         users = bot.db.fetchall('SELECT * FROM users ORDER BY points DESC',
             ())[:am-1]
-        msg = []
+        msg = ['Wrong score? Use .updatescore to send a message to Toofifty and'
+            ' I\'ll fix it ASAP.']
         n = 1
         for user in users:
             if user['points'] < 1:

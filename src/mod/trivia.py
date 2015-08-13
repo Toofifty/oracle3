@@ -11,6 +11,7 @@ from format import PURPLE, RESET, BOLD
 from errors import ArgumentError
 trivia_handler = None
 FORMAT = '[%sTrivia%s]' % (PURPLE, RESET)
+COST = 100
 
 # Rewrite and improvement on the trivia game
 
@@ -59,9 +60,8 @@ incorrect_alts = [
 def trivia(bot, cmd):
     """!parent-command !r user
     !c new
-        !d Ask a new trivia question
-        !a <mode>
-        !r administrator
+        !d Start a new manual trivia round. Costs 100 $curr$
+        !r user
     !c time
         !d Check how long until the next trivia question
         !r user
@@ -81,9 +81,19 @@ def trivia(bot, cmd):
         !d Get personal trivia stats
         !a [category...]
         !r user
+    !c answer
+        !d Get the current answer to trivia
+        !r administrator
     """
     def new(bot, cmd):
         global trivia_handler
+        if cmd.user.rank < 3:
+            if cmd.user.points > COST:
+                cmd.user.add_points(-COST)
+                cmd.output('You pay %d $curr$ to start a new round.' % COST)
+            else:
+                cmd.output('You don\'t have enough points to start a round.')
+                return
         trivia_handler.time_left = 2
         trivia_handler.end()
 
@@ -193,6 +203,17 @@ def trivia(bot, cmd):
                 game.broadcast()
         else:
             cmd.output('%s There is no game at the moment.' % FORMAT)
+
+    def answer(bot, cmd):
+        global trivia_handler
+        game = trivia_handler.game
+        if game is None:
+            cmd.output('There is no game at the moment.')
+        else:
+            if game.mode == 'challenge':
+                cmd.output('Can\'t get answers during a challenge.')
+            else:
+                cmd.output(game.answers)
 
     try:
         if len(cmd.args) == 0:
@@ -360,7 +381,7 @@ class TriviaHandler(Thread):
         # Kickstart the trivia and remove time to the next round
         if user.vhost not in self.kicks:
             self.kicks.append(user.vhost)
-            time = random.randint(60, 720)
+            time = random.randint(self.interval / 10, self.interval / 2)
             self.time_left -= time
             self.time_left = max(0, self.time_left)
             return time
@@ -461,13 +482,13 @@ class TriviaHandler(Thread):
                         self.time_left = 0
                 time.sleep(2)
             rng = random.random()
-            if rng > 0.01:
+            if rng > 0.8:
                 # Start a challenge trivia
                 self.game = TriviaChallenge(self, 500)
-            elif rng > 0.5:
+            elif rng > 0.6:
                 # Start a hard trivia
                 self.game = TriviaHard(self, 200)
-            elif rng > 0.25:
+            elif rng > 0.4:
                 # Start a risk trivia
                 self.game = TriviaRisk(self, 250)
             else:
@@ -616,7 +637,7 @@ class TriviaChallenge(Thread):
         # Time is set to the initial time of the enter stage (2 mins)
         # it is used afterwards to time each question, so it can return
         # a value to .trivia time
-        self.time = 20
+        self.time = 120
         self.ans_time = 15
         self.num_qs = 5
         self.min_players = 2

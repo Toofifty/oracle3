@@ -45,9 +45,11 @@ def mail(bot, cmd):
         !a <mail names... or *>
     """
     def inbox(bot, cmd):
+        # Grab all mail for user
         inbox = bot.db.fetchall('SELECT * FROM mail WHERE receiver=?',
             (cmd.user.vhost,))
         if inbox is None or len(inbox) == 0:
+            # 'inbox' is empty
             cmd.output('You have no mail :(')
         else:
             msg = []
@@ -57,10 +59,11 @@ def mail(bot, cmd):
                 if filt in mail['title']:
                     sent = time.asctime(time.gmtime(mail['sent']))
                     diff = time.time() - mail['sent']
+                    # Find out difference in days, hours, mins, secs
                     dm, ds = divmod(diff, 60)
                     dh, dm = divmod(dm, 60)
                     dd, dh = divmod(dh, 24)
-                    diff_str = ''
+                    # Create a usable string to output
                     if dd > 0:
                         diff_str = '%d day%s ago' % (dd, 's' if dd > 1 else '')
                     elif dh > 0:
@@ -74,9 +77,11 @@ def mail(bot, cmd):
                     sender = bot.get_user(mail['sender']).nick
                     msg.append('%s%s (%s) %s: %s' % (BOLD if not mail['read']
                         else '', sent, diff_str, sender, mail['title']))
+            # Print to user
             cmd.output(*msg)
 
     def read(bot, cmd):
+        # Grab all mail for user
         inbox = bot.db.fetchall('SELECT * FROM mail WHERE receiver=?',
             (cmd.user.vhost,))
         if inbox is None or len(inbox) == 0:
@@ -112,6 +117,7 @@ def mail(bot, cmd):
                     read.append(mail)
             cmd.output(*msg)
             for mail in read:
+                # Go through all mail records, set to read
                 bot.db.execute('UPDATE mail SET read=? WHERE sent=? AND '
                     'title=?', (1, mail['sent'], mail['title']))
 
@@ -119,6 +125,7 @@ def mail(bot, cmd):
         if len(cmd.args) < 3:
             cmd.output('Usage: .mail send <nick> <title> <message...>')
         else:
+            # Place a new record into the database
             recip = bot.get_user(cmd.args[0])
             if recip is None:
                 cmd.output('User %s not found.' % cmd.args[0])

@@ -18,6 +18,10 @@ class IRC(socket.socket):
 
         self.ident = ident
         self.channels = channels
+        # Prepend hashes if not found
+        for i in range(len(channels)):
+            if not channels[i][0] == '#':
+                channels[i] = '#' + channels[i]
         self.host = host
         self.port = port
         self.nick = nick

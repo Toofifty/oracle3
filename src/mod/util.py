@@ -50,9 +50,11 @@ def alias(bot, cmd):
         !r administrator
     !c list
         !d View all personal aliases
+        !a [page]
         !r user
     !c glist
         !d View all global aliases
+        !a [page]
         !r user
     """
     def add(bot, cmd, *args):
@@ -131,9 +133,13 @@ def alias(bot, cmd):
         else:
             user = args[0]
 
+        page = 1
+        if len(cmd.args) > 0:
+            page = int(cmd.args[0])
+
         aliases = bot.db.fetchall('SELECT * FROM alias WHERE user = ?', (user,))
-        out = []
-        for alias in aliases:
+        out = ['<page %d of %d>' % (page, int(len(aliases) / 10) + 1)]
+        for alias in aliases[(page-1)*10:page*10]:
             out.append('%s : %s' % (alias['alias'], alias['command']))
         if len(out) == 0:
             cmd.output('No aliases found.')

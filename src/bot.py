@@ -117,6 +117,7 @@ class Oracle(IRC):
                 and self.password is not None:
             self.privmsg('NickServ', 'identify %s %s' \
                 % (self.nick, self.password))
+            self.auth = True
             return
 
         # NAMES response
