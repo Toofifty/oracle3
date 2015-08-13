@@ -101,8 +101,13 @@ class PluginLoader(object):
                 print '>>> Processing command...'
 
                 try:
-                    if cmd.user.rank >= self.get_command_rank(mod, cmd) \
-                            or self.gl_alias:
+                    cmd_rank = self.get_command_rank(mod, cmd)
+
+                    if cmd.user.rank >= cmd_rank or self.gl_alias \
+                            or cmd_rank == -1:
+                        # cmd_rank of -1 is a hidden command
+                        # these should always be accessible (permissions
+                        # handled in command code)
                         getattr(mod, str(cmd))(bot, cmd)
                         print '>-> Finished command.'
                         self.gl_alias = False
