@@ -223,13 +223,13 @@ def say(bot, cmd):
     msg = ' '.join(cmd.args)
     for match in re.findall(bot.token_pattern, msg):
         # Haha, no
-        if not 'pass' in match and not 'conf' in match:
+        if not 'pass' in match and not 'conf' in match and not '(' in match:
             try:
+                # Replace the string with the attribute value
                 msg = msg.replace('$%s$' % match, str(eval(match)))
             except:
                 msg = 'Bad token: $%s$' % match
                 break
-            # Replace the string with the attribute value
     cmd.set_loud(True)
     cmd.output(msg)
 

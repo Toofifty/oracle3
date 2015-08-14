@@ -36,7 +36,7 @@ def exe(bot, cmd):
     try:
         exec ' '.join(cmd.args)
     except Exception, e:
-        bot.output(e)
+        cmd.output(e)
 
 def fakejoin(bot, cmd):
     """

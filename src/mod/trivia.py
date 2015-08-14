@@ -20,7 +20,7 @@ COST = 100
 def _init(b):
     print '^^^ %s loaded' % __name__
     global trivia_handler
-    trivia_handler = TriviaHandler(600, b)
+    trivia_handler = TriviaHandler(1200, b)
     trivia_handler.start()
 
 def _del(b):
